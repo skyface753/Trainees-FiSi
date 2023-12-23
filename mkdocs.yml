@@ -1,0 +1,50 @@
+site_name: My Docs
+
+theme:
+  name: material
+
+
+site_name: Azubis-FiSi
+# repo_name: Kubernetes-Collection
+# repo_url: https://github.com/ITLab-CC/Kubernetes-Collection
+# edit_uri: 'tree/main/Docs/docs/'
+# site_url: https://itlab-cc.github.io/Kubernetes-Collection/
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - content.action.edit
+    - navigation.footer
+    - navigation.expand
+    - navigation.indexes
+  palette:
+    scheme: slate
+markdown_extensions:
+  - attr_list
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+plugins:
+  - search
+  - awesome-pages
+  - git-revision-date
+  - print-site
+nav:
+  - Home: index.md
+  - Setup your Environment:
+      - setup_env/index.md
+      - Proxmox: setup_env/proxmox.md
+  - Mininet:
+      - ... | mininet/*.md
+
