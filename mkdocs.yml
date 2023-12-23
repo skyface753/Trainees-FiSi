@@ -43,8 +43,22 @@ plugins:
 nav:
   - Home: index.md
   - Setup your Environment:
-      - setup_env/index.md
-      - Proxmox: setup_env/proxmox.md
+    - setup_env/index.md
+    - Proxmox: setup_env/proxmox.md
   - Mininet:
-      - ... | mininet/*.md
+    - ... | mininet/*.md
+  - Networking:
+    - Basics:
+      - Subnetting: networking/basics/subnetting.md
+    - Firewall: networking/firewall.md
+    - Switch: networking/switch.md
+    - VLAN: networking/vlan.md
+  - Virtualization:
+    - Docker: virtualization/docker.md
+  - Services:
+    - ... | services/*.md
+  - Wifi:
+    - Controller: wifi/controller.md
+    - APs: wifi/aps.md
+
 
