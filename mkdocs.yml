@@ -1,10 +1,4 @@
-site_name: My Docs
-
-theme:
-  name: material
-
-
-site_name: Azubis-FiSi
+site_name: Trainees-FiSi
 # repo_name: Kubernetes-Collection
 # repo_url: https://github.com/ITLab-CC/Kubernetes-Collection
 # edit_uri: 'tree/main/Docs/docs/'
@@ -39,26 +33,30 @@ plugins:
   - search
   - awesome-pages
   - git-revision-date
+  - encryptcontent:
+      password_inventory:
+        add_infos: iamfinished
   - print-site
 nav:
   - Home: index.md
-  - Setup your Environment:
-    - setup_env/index.md
-    - Proxmox: setup_env/proxmox.md
+  - First Start:
+      - first_start/index.md
   - Mininet:
-    - ... | mininet/*.md
-  - Networking:
-    - Basics:
-      - Subnetting: networking/basics/subnetting.md
-    - Firewall: networking/firewall.md
-    - Switch: networking/switch.md
-    - VLAN: networking/vlan.md
+      - ... | mininet/*.md
   - Virtualization:
-    - Docker: virtualization/docker.md
+      - Proxmox: virtualization/proxmox.md
+      - Docker: virtualization/docker.md
+  - Networking:
+      - Basics:
+          - Subnetting: networking/basics/subnetting.md
+      - Firewall: networking/firewall.md
+      - Switch: networking/switch.md
+      - VLAN: networking/vlan.md
   - Services:
-    - ... | services/*.md
+      - Intro: services/introduction.md
+      - ... | services/*.md
   - Wifi:
-    - Controller: wifi/controller.md
-    - APs: wifi/aps.md
-
-
+      - Controller: wifi/controller.md
+      - APs: wifi/aps.md
+  - VPN:
+      - ... | vpn/*.md

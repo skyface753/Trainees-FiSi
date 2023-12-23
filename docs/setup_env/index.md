@@ -1,3 +1,0 @@
-# Setup your Environment
-
-## Proxmox

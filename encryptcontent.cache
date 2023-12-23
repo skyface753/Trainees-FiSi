@@ -1,0 +1,7 @@
+kdf_iterations: 10000
+obfuscate: {}
+password:
+  Password if PWD_FOR_SOLVED undefined or empty: 4f848fe97600270d93fd8686b869b5c568e77aa349ee6092fe0286cb09c69069;bfb58638b3b795e74e84e75cb06e9140
+  iamfinish: 2d739cc655f488daae95f19d644b88084f358671f5b8789faafe198d5d59b1d9;dc861c630566bb657a77cb1cf1bf0da2
+  iamfinished: e2f3fd916345478d827cc278467258a0eb7fab6ad61d0c1f171e31380904c8fc;434424948c4fa4b1ca3a9f1483599f46
+userpass: {}
