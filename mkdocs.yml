@@ -18,10 +18,6 @@ theme:
     - navigation.indexes
   palette:
     scheme: slate
-# extra_javascript:
-#   - javascripts/quiz.js
-# extra_css:
-#   - stylesheets/quiz.css
 markdown_extensions:
   - attr_list
   - pymdownx.superfences:

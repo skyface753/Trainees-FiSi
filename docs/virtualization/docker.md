@@ -6,13 +6,16 @@ Docker via CLI
 
 quiz-start
 quiz-question: Are you ready?
-quiz-answer: Yes!
-quiz-answer-correct: No!
+quiz-answer-correct: <code>Yes!</code>
+quiz-answer: No!
 quiz-answer: Maybe!
 quiz-content:
 
 <h2>Provide some additional content</h2>
-
-<pre><code class="language-bash">docker run hello-world</code></pre>
-
 quiz-end
+
+## Dockerfile
+
+```dockerfile
+FROM ubuntu:latest
+```

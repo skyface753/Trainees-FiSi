@@ -5,3 +5,4 @@ mkdocs-print-site-plugin
 mkdocs-material-extensions
 mkdocs-git-revision-date-plugin
 mkdocs-encryptcontent-plugin
+mkdocs_quiz
