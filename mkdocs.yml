@@ -17,7 +17,6 @@ theme:
     - navigation.indexes
   palette:
     scheme: slate
-  custom_dir: overrides
 extra_javascript:
   - javascripts/quiz.js
 extra_css:
@@ -43,7 +42,9 @@ plugins:
         add_infos: iamfinished
   - print-site
 nav:
-  - Home: index.md
+  - Home:
+      - index.md
+      - quiz.md
   - First Start:
       - first_start/index.md
   - Mininet:
