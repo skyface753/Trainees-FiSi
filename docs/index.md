@@ -9,10 +9,12 @@ This is a documentation to learn the basics of the FiSi trainee program.
 - Then we will setup a real network with a router and real switches.
 - Finally, we will setup some servers and services to get a infrastructure like a company would have (e.g. a webserver, a mailserver, a fileserver, ...)
 
-### No longer hidden
+quiz-start
+quiz-question: Are you ready?
+quiz-answer-correct: <code>Yes!</code>
+quiz-answer: No!
+quiz-answer: Maybe!
+quiz-content:
 
-## BLABAA
-
-Bdjwkif
-
-???-quiz HALLO ???-end
+<h2>Provide some additional content</h2>
+quiz-end
