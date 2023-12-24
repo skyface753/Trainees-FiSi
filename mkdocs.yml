@@ -1,14 +1,15 @@
 site_name: Trainees-FiSi
-# repo_name: Kubernetes-Collection
-# repo_url: https://github.com/ITLab-CC/Kubernetes-Collection
-# edit_uri: 'tree/main/Docs/docs/'
-# site_url: https://itlab-cc.github.io/Kubernetes-Collection/
+repo_name: Trainees-FiSi
+repo_url: https://github.com/skyface753/Trainees-FiSi
+edit_uri: 'tree/main/docs/'
+site_url: https://skyface753.github.io/Trainees-FiSi/
 theme:
   name: material
   features:
     - content.code.copy
-    - navigation.instant
-    - navigation.instant.prefetch
+    # Disabled, because it prevents the js for the quiz from working
+    # - navigation.instant
+    # - navigation.instant.prefetch
     - navigation.tabs
     - navigation.tabs.sticky
     - content.action.edit
@@ -33,12 +34,12 @@ plugins:
   - search
   - awesome-pages
   - git-revision-date
-  - encryptcontent:
-      password_inventory:
-        add_infos: iamfinished
+  - mkdocs_quiz
   - print-site
 nav:
-  - Home: index.md
+  - Home:
+      - index.md
+      - quiz.md
   - First Start:
       - first_start/index.md
   - Mininet:
