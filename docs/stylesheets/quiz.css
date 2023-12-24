@@ -1,0 +1,42 @@
+#quiz {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+#solution {
+  display: none;
+}
+#solution.show {
+  display: block;
+}
+
+#quiz .wrong-answer {
+  display: none;
+}
+#quiz .wrong-answer.show {
+  display: block;
+}
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+fieldset input {
+  margin: 0 10px;
+}
+fieldset label {
+  margin: 0 10px;
+}
+
+label.correct {
+  color: green;
+}
+label.wrong {
+  color: red;
+}
+input[type='radio'].correct {
+  accent-color: green;
+}
+input[type='radio'].wrong {
+  accent-color: red;
+}

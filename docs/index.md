@@ -1,17 +1,38 @@
-# Welcome to MkDocs
+---
+question: Are you ready?
+answers:
+  - Yes!
+  - No!
+answerStyle: code
+answerIndex: 0
+---
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# Welcome, new trainee!
 
-## Commands
+This is a documentation to learn the basics of the FiSi trainee program.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Order
 
-## Project layout
+- First, we will setup a basic network with an FritzBox router and a client. This will be your first start to get familiar with the basics.
+- After that, we will setup a virtual network with Mininet. We will mainly use this to test our configuration before deploying it on real hardware.
+- Then we will setup a real network with a router and real switches.
+- Finally, we will setup some servers and services to get a infrastructure like a company would have (e.g. a webserver, a mailserver, a fileserver, ...)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+<div id="hidden-solution">
+<h4> Our solution to the quiz is: </h4>
+
+```bash
+sudo mn --topo single,3 --mac --switch ovsk --controller remote
+```
+
+The hidden solution is appended to the quiz at the exact position where the hidden solution is defined.
+
+The hidden solution needs to be defined as a div with the id "hidden-solution". (This is the only way to hide the solution header from the table of contents)
+
+</div>
+
+### No longer hidden
+
+## BLABAA
+
+Bdjwkif

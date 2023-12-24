@@ -1,0 +1,54 @@
+<!-- Tags -->
+{% if "material/tags" in config.plugins and tags %} {% include
+"partials/tags.html" %} {% endif %}
+
+<!-- Actions -->
+{% include "partials/actions.html" %}
+
+<!--
+  Hack: check whether the content contains a h1 headline. If it doesn't, the
+  page title (or respectively site name) is used as the main headline.
+-->
+{% if "\x3ch1" not in page.content %}
+<h1>{{ page.title | d(config.site_name, true)}}</h1>
+{% endif %}
+
+<!-- Page content -->
+{{ page.content }}
+<!-- Quiz -->
+{% if page and page.meta and page.meta.question and page.meta.answers and
+page.meta.answerIndex != nil %}
+<section id="quiz">
+  <form class="question">
+    <fieldset>
+      <legend>{{ page.meta.question }}</legend>
+      {% for answer in page.meta.answers %}
+      <label>
+        <input type="radio" name="your-answer" value="{{ loop.index }}" />
+        <!-- Anser Style -->
+        {% if page.meta.answerStyle and page.meta.answerStyle == "code" %}
+        <code>{{ answer }}</code>
+        {% else %} {{ answer }} {% endif %}
+      </label>
+      {% endfor %}
+    </fieldset>
+    <input
+      id="real-answer"
+      type="hidden"
+      name="real-answer"
+      value="{{ page.meta.answerIndex }}"
+    />
+    <input type="submit" value="Check" />
+  </form>
+  <div class="wrong-answer">Wrong answer!</div>
+</section>
+{% endif %}
+
+<!-- Source file information -->
+{% include "partials/source-file.html" %}
+
+<!-- Was this page helpful? -->
+{% include "partials/feedback.html" %}
+
+<!-- Comment system -->
+{% include "partials/comments.html" %}
