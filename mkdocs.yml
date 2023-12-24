@@ -1,8 +1,8 @@
 site_name: Trainees-FiSi
-# repo_name: Kubernetes-Collection
-# repo_url: https://github.com/ITLab-CC/Kubernetes-Collection
-# edit_uri: 'tree/main/Docs/docs/'
-# site_url: https://itlab-cc.github.io/Kubernetes-Collection/
+repo_name: Trainees-FiSi
+repo_url: https://github.com/skyface753/Trainees-FiSi
+edit_uri: 'tree/main/docs/'
+site_url: https://skyface753.github.io/Trainees-FiSi/
 theme:
   name: material
   features:
@@ -37,9 +37,6 @@ plugins:
   - search
   - awesome-pages
   - git-revision-date
-  - encryptcontent:
-      password_inventory:
-        add_infos: iamfinished
   - print-site
 nav:
   - Home:
