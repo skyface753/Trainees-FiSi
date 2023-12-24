@@ -49,3 +49,6 @@ input[type='radio'].correct {
 input[type='radio'].wrong {
   accent-color: red;
 }
+.content {
+  margin: 10px;
+}

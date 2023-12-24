@@ -24,6 +24,8 @@ To create a quiz in this mkdocs project, you need to use the following syntax:
 
     **Note** Use `<h1>`/`<h2>`... instead of `#`/`##`... for the quiz (particular in the `content` section), to prevent mkdocs adding the quiz to the table of contents.
 
+See [Proxmox](virtualization/proxmox.md) for an example.
+
 ## How it works
 
 The quiz is parsed by a custom javascript script `docs/js/quiz.js`.

@@ -7,8 +7,9 @@ theme:
   name: material
   features:
     - content.code.copy
-    - navigation.instant
-    - navigation.instant.prefetch
+    # Disabled, because it prevents the js for the quiz from working
+    # - navigation.instant
+    # - navigation.instant.prefetch
     - navigation.tabs
     - navigation.tabs.sticky
     - content.action.edit
@@ -17,10 +18,10 @@ theme:
     - navigation.indexes
   palette:
     scheme: slate
-extra_javascript:
-  - javascripts/quiz.js
-extra_css:
-  - stylesheets/quiz.css
+# extra_javascript:
+#   - javascripts/quiz.js
+# extra_css:
+#   - stylesheets/quiz.css
 markdown_extensions:
   - attr_list
   - pymdownx.superfences:
@@ -37,6 +38,7 @@ plugins:
   - search
   - awesome-pages
   - git-revision-date
+  - mkdocs_quiz
   - print-site
 nav:
   - Home:
