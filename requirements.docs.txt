@@ -6,3 +6,5 @@ mkdocs-material-extensions
 mkdocs-git-revision-date-plugin
 mkdocs-encryptcontent-plugin
 mkdocs_quiz
+mkdocs-open-in-new-tab
+mkdocs-thumbnails

@@ -9,12 +9,22 @@ This is a documentation to learn the basics of the FiSi trainee program.
 - Then we will setup a real network with a router and real switches.
 - Finally, we will setup some servers and services to get a infrastructure like a company would have (e.g. a webserver, a mailserver, a fileserver, ...)
 
-quiz-start
-quiz-question: Are you ready?
-quiz-answer-correct: <code>Yes!</code>
-quiz-answer: No!
-quiz-answer: Maybe!
-quiz-content:
+## Prepare yourself
 
-<h2>Provide some additional content</h2>
-quiz-end
+- Get familiar with the [Linux command line](https://www2.icp.uni-stuttgart.de/~icp/mediawiki/images/b/bd/Sim_Meth_I_T0_cheat_sheet_10_11.pdf)
+
+<?quiz?>
+
+question: Are you ready?
+answer-correct: Yes!
+answer: No!
+content:
+
+<h4> Great! </h4>
+<?/quiz?>
+
+# Create a quiz
+
+This is for the creators of this trainee project.
+
+To create a quiz in this project, see [mkdocs_quiz](https://github.com/skyface753/mkdocs-quiz).

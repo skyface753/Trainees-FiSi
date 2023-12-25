@@ -1,26 +1,12 @@
 # Proxmox
 
-## Install Proxmox
+Now that we are familiar with the basics of virtualization, let's look at some of the popular virtualization platforms.
 
-[Proxmox](https://www.proxmox.com/en/) is a virtualization platform based on Debian. It is free and open source. It is a good alternative to VMware ESXi.
+[Proxmox](https://www.proxmox.com/en/) is a virtualization platform. It gets installed directly on the hardware and provides a web interface to manage the virtual machines (VMs) and containers (LXCs).
 
-### Download Proxmox
+!!! note
+Proxmox is a operating system, so you can't use it in parallel to another operating system. (But you can install Proxmox on a VM.)
 
-Download the latest version of Proxmox from the [Proxmox website](https://www.proxmox.com/en/downloads).
+## Install
 
-## First VM
-
-Now that we have Proxmox installed, let's create our first VM.
-
-quiz-start
-quiz-question: Do you create a VM or an LXC?
-quiz-answer-correct: VM
-quiz-answer: LXC
-quiz-content:
-
-<h4> Great! </h4>
-You are right!
-The VM is a full virtualization, while the LXC is a container.
-quiz-end
-
-### Create a VM
+Please follow the [official installation guide](https://www.proxmox.com/en/proxmox-virtual-environment/get-started).

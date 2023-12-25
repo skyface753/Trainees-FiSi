@@ -4,15 +4,13 @@ Docker Desktop
 
 Docker via CLI
 
-quiz-start
-quiz-question: Are you ready?
-quiz-answer-correct: <code>Yes!</code>
-quiz-answer: No!
-quiz-answer: Maybe!
-quiz-content:
+## Getting Started
 
-<h2>Provide some additional content</h2>
-quiz-end
+## Networking
+
+Please watch the following video to learn more about Docker networking:
+
+[Docker Networking](https://youtu.be/aMRDZ6Le1Zg){.youtube}
 
 ## Dockerfile
 

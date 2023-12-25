@@ -35,18 +35,21 @@ plugins:
   - awesome-pages
   - git-revision-date
   - mkdocs_quiz
+  - open-in-new-tab
   - print-site
+  - thumbnails:
+      style: margin-top:5px;margin-bottom:5px;margin-right:25px
 nav:
   - Home:
       - index.md
-      - quiz.md
   - First Start:
       - first_start/index.md
   - Mininet:
       - ... | mininet/*.md
-  - Virtualization:
-      - Proxmox: virtualization/proxmox.md
-      - Docker: virtualization/docker.md
+  - Start - Virtualization:
+      - virtualization/virtualbox.md
+      - virtualization/proxmox.md
+      - virtualization/docker.md
   - Networking:
       - Basics:
           - Subnetting: networking/basics/subnetting.md
