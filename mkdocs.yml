@@ -50,6 +50,7 @@ nav:
       - virtualization/virtualbox.md
       - virtualization/proxmox.md
       - virtualization/docker.md
+      - virtualization/kubernetes.md
   - Networking:
       - Basics:
           - Subnetting: networking/basics/subnetting.md
@@ -64,3 +65,8 @@ nav:
       - APs: wifi/aps.md
   - VPN:
       - ... | vpn/*.md
+  - Coding:
+      - ... | coding/*.md
+  - KI:
+      - ki/intro.md
+      - ... | ki/*.md
