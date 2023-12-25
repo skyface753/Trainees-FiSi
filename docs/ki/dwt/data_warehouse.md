@@ -13,6 +13,6 @@
 
 ## First Steps
 
-Download the [schema](dwt/schema.sql){:download="schema.sql"} and [data](dwt/data.zip){:download="data.zip"}. Then import them into your database.
+Download the [schema](data/schema.sql){:download="schema.sql"} and [data](data/data.zip){:download="data.zip"}. Then import them into your database.
 
 Now you can view the data in your database with Power BI.

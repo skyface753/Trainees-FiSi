@@ -1,0 +1,6 @@
+nav:
+  - basics
+  - firewall.md
+  - switch.md
+  - ...
+  - vlan.md

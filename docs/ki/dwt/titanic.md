@@ -6,7 +6,7 @@ First, follow the [tutorial](http://trevorstephens.com/kaggle-titanic-tutorial/g
 
 ## Knime Workflow
 
-Now you can download the [additional data](titanic/Titanic%20Passenger%20list.xls){:download="Titanic Passenger list.xls"}.
+Now you can download the [additional data](data/Titanic%20Passenger%20list.xls){:download="Titanic Passenger list.xls"}.
 These 2 excel sheets contain some additional information about the passengers.
 
 You can create an Knime Workflow, which concatenates the data with the (train.csv) data from the tutorial.

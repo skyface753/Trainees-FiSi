@@ -42,31 +42,32 @@ plugins:
 nav:
   - Home:
       - index.md
-  - First Start:
-      - first_start/index.md
-  - Mininet:
-      - ... | mininet/*.md
-  - Start - Virtualization:
-      - virtualization/virtualbox.md
-      - virtualization/proxmox.md
-      - virtualization/docker.md
-      - virtualization/kubernetes.md
-  - Networking:
-      - Basics:
-          - Subnetting: networking/basics/subnetting.md
-      - Firewall: networking/firewall.md
-      - Switch: networking/switch.md
-      - VLAN: networking/vlan.md
-  - Services:
-      - Intro: services/introduction.md
-      - ... | services/*.md
-  - Wifi:
-      - Controller: wifi/controller.md
-      - APs: wifi/aps.md
-  - VPN:
-      - ... | vpn/*.md
-  - Coding:
-      - ... | coding/*.md
-  - KI:
-      - ki/intro.md
-      - ... | ki/*.md
+  - ...
+#   - First Start:
+#       - first_start/index.md
+#   - Mininet:
+#       - ... | mininet/*.md
+#   - Start - Virtualization:
+#       - virtualization/virtualbox.md
+#       - virtualization/proxmox.md
+#       - virtualization/docker.md
+#       - virtualization/kubernetes.md
+#   - Networking:
+#       - Basics:
+#           - Subnetting: networking/basics/subnetting.md
+#       - Firewall: networking/firewall.md
+#       - Switch: networking/switch.md
+#       - VLAN: networking/vlan.md
+#   - Services:
+#       - Intro: services/introduction.md
+#       - ... | services/*.md
+#   - Wifi:
+#       - Controller: wifi/controller.md
+#       - APs: wifi/aps.md
+#   - VPN:
+#       - ... | vpn/*.md
+#   - Coding:
+#       - ... | coding/*.md
+#   - KI:
+#       - ki/intro.md
+#       - ... | ki/*.md
