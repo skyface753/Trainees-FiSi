@@ -1,10 +1,11 @@
 nav:
-  - first_start
-  - mininet
-  - virtualization
-  - networking
-  - services
-  - wifi
-  - vpn
-  - coding
-  - ki
+
+- boards
+- virtualization
+- networking
+- services
+- wifi
+- vpn
+- database
+- coding
+- ki

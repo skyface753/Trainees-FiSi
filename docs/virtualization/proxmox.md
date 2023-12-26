@@ -5,7 +5,8 @@ Now that we are familiar with the basics of virtualization, let's look at some o
 [Proxmox](https://www.proxmox.com/en/) is a virtualization platform. It gets installed directly on the hardware and provides a web interface to manage the virtual machines (VMs) and containers (LXCs).
 
 !!! note
-Proxmox is a operating system, so you can't use it in parallel to another operating system. (But you can install Proxmox on a VM.)
+
+    Proxmox is a operating system, so you can't use it in parallel to another operating system. (But you can install Proxmox on a VM.)
 
 ## Install
 

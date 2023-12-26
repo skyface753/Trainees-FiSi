@@ -1,4 +1,4 @@
-# First start
+# Simple start
 
 For the first start we will setup a basic network with an FritzBox router and your pc as a client. This will be your first start to get familiar with the basics.
 
