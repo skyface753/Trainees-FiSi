@@ -13,8 +13,8 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - content.action.edit
-    - navigation.footer
-    - navigation.expand
+    # - navigation.footer
+    # - navigation.expand
     - navigation.indexes
     - navigation.top
   palette:

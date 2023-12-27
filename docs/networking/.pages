@@ -1,10 +1,14 @@
 nav:
 
-- simple_start.md
-- basics
+- intro.md
+- starting_point.md
+- wireshark.md
+- services
+- advanced
 - mininet
 - firewall.md
 - switch.md
 - wifi
 - ...
 - vlan.md
+- VPN: vpn
