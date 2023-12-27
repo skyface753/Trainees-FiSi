@@ -2,18 +2,21 @@
 
 This is a documentation to learn the basics as an FiSi trainee.
 
-## Order
+## Structure
 
 [timeline(docs/timeline.json)]
 
 !!! note
 
-    There are some further topics in the navigation bar, but they are not part of the program.
+    There are some further topics in the navigation bar, but they are not essential for the trainee project.
 
-- First, we will setup a basic network with an FritzBox router and a client. This will be your first start to get familiar with the basics.
-- After that, we will setup a virtual network with Mininet. We will mainly use this to test our configuration before deploying it on real hardware.
-- Then we will setup a real network with a router and real switches.
-- Finally, we will setup some servers and services to get a infrastructure like a company would have (e.g. a webserver, a mailserver, a fileserver, ...)
+## Main topics
+
+- First, we will do a few projects with [Boards](boards/), like the Raspberry Pi, to get familiar with some basic hardware.
+- After that, we will setup some [virtual machines](virtualization/) to a basic infrastructure.
+- Then we will setup a [network](networking/) with a router and real switches.
+  - We will also setup some servers and services to get a infrastructure like a company would have (e.g. a webserver, a mailserver, a fileserver, ...)
+- Lastly, you can choose some other topics like [coding](coding/) or [AI](ai/). These are not essential for the trainee project, but you can learn a lot from them.
 
 ## Prepare yourself
 
@@ -28,9 +31,3 @@ content:
 
 <h4> Great! </h4>
 <?/quiz?>
-
-# Create a quiz
-
-This is for the creators of this trainee project.
-
-To create a quiz in this project, see [mkdocs_quiz](https://github.com/skyface753/mkdocs-quiz).

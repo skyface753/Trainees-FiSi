@@ -48,9 +48,14 @@ extra:
 plugins:
   - search
   - awesome-pages
-  - git-revision-date
+  - git-revision-date-localized:
+      enable_creation_date: true
+  # - git-committers:
+  #     repository: squidfunk/mkdocs-material
+  #     branch: main
+  - git-authors
   - mkdocs_quiz
-  - open-in-new-tab
+  - open-in-new-tab # Open all external links in a new tab
   - tags
   - thumbnails:
       style: margin-top:5px;margin-bottom:5px;margin-right:25px
