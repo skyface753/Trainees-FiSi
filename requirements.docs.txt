@@ -10,4 +10,4 @@ mkdocs-open-in-new-tab
 mkdocs-thumbnails
 neoteroi-mkdocs
 mkdocs-git-revision-date-localized-plugin
-git-authors
+mkdocs-git-authors-plugin
