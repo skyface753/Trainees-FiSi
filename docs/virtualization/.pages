@@ -1,5 +1,6 @@
 nav:
 
+- index.md
 - virtualbox.md
 - proxmox.md
 - docker.md

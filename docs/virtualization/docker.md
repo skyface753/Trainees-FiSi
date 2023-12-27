@@ -2,7 +2,7 @@
 
 Docker is a tool to run applications in containers. A container is a lightweight virtual machine. It is a virtual machine because it is isolated from the host system. It is lightweight because it does not need a full operating system. Instead, it uses the host system's kernel. This makes it very fast and efficient. Docker is a tool to manage containers. It is also used by many developers to run their applications locally.
 
-![VM vs Container](vm-vs-container.avif)
+![VM vs Container](../assets/images/vm-vs-container.avif)
 
 !!! warning
 

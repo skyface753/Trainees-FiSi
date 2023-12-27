@@ -17,6 +17,7 @@ theme:
     # - navigation.expand
     - navigation.indexes
     - navigation.top
+    - navigation.instant.progress
   palette:
     scheme: slate
   icon:
@@ -49,11 +50,12 @@ plugins:
   - search
   - awesome-pages
   - git-revision-date-localized:
-      enable_creation_date: true
+      enabled: !ENV [ENABLED_GIT_PLUGINS, True]
   # - git-committers:
   #     repository: squidfunk/mkdocs-material
   #     branch: main
-  - git-authors
+  - git-authors:
+      enabled: !ENV [ENABLED_GIT_PLUGINS, True]
   - mkdocs_quiz
   - open-in-new-tab # Open all external links in a new tab
   - tags

@@ -1,4 +1,4 @@
-# Intro with VirtualBox
+# VirtualBox
 
 ## Background
 

@@ -1,2 +1,3 @@
-build-and-run:
-	(cd mkdocs-quiz && pip install -e . && cd .. && mkdocs serve)
+
+run:
+	ENABLED_GIT_PLUGINS=false mkdocs serve
