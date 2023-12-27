@@ -1,5 +1,7 @@
 nav:
-  - virtualbox.md
-  - proxmox.md
-  - docker.md
-  - kubernetes.md
+
+- virtualbox.md
+- proxmox.md
+- docker.md
+- kubernetes.md
+- ...

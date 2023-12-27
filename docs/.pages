@@ -1,10 +1,12 @@
 nav:
 
+- Home:
+  - index.md
+  - self_doc.md
 - boards
 - virtualization
 - networking
 - services
-- wifi
 - vpn
 - database
 - coding

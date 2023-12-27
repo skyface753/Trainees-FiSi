@@ -1,8 +1,14 @@
 # Welcome, new trainee!
 
-This is a documentation to learn the basics of the FiSi trainee program.
+This is a documentation to learn the basics as an FiSi trainee.
 
 ## Order
+
+[timeline(docs/timeline.json)]
+
+!!! note
+
+    There are some further topics in the navigation bar, but they are not part of the program.
 
 - First, we will setup a basic network with an FritzBox router and a client. This will be your first start to get familiar with the basics.
 - After that, we will setup a virtual network with Mininet. We will mainly use this to test our configuration before deploying it on real hardware.
