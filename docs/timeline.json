@@ -19,8 +19,8 @@
     "sub_title": "2022-Q3"
   },
   {
-    "title": "Services",
-    "content": "After you have your own network, you can now deploy some services, like web server, dns server, etc.",
+    "title": "Applications",
+    "content": "After you have your own network, you can now deploy some applications, like databases, nextcloud, etc.",
     "key": "pink",
     "sub_title": "2022-Q4"
   }

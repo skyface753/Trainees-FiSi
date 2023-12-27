@@ -19,10 +19,14 @@ theme:
     - navigation.top
   palette:
     scheme: slate
+  icon:
+    tag:
+      service: material/apps
 extra_css:
   - css/neoteroi-mkdocs.css
 markdown_extensions:
   - attr_list
+  - footnotes
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -37,12 +41,17 @@ markdown_extensions:
   - neoteroi.timeline
   - toc:
       permalink: true
+
+extra:
+  tags:
+    Service: service
 plugins:
   - search
   - awesome-pages
   - git-revision-date
   - mkdocs_quiz
   - open-in-new-tab
+  - tags
   - thumbnails:
       style: margin-top:5px;margin-bottom:5px;margin-right:25px
   # Last plugin
