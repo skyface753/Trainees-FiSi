@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://skyface753.github.io/Trainees-FiSi/virtualization/docker/">
+        <link rel="canonical" href="https://skyface753.github.io/Trainees-FiSi/virtualization/4_kubernetes/">
       
       
-        <link rel="prev" href="../proxmox/">
+        <link rel="prev" href="../3_docker/">
       
       
-        <link rel="next" href="../kubernetes/">
+        <link rel="next" href="../../networking/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Docker - Trainees-FiSi</title>
+        <title>Kubernetes - Trainees-FiSi</title>
       
     
     
@@ -77,6 +77,8 @@
     
       <link rel="stylesheet" href="../../assets/css/neoteroi-mkdocs.css">
     
+      <link rel="stylesheet" href="../../assets/css/admonition.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -103,7 +105,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#docker" class="md-skip">
+        <a href="#kubernetes" class="md-skip">
           Skip to content
         </a>
       
@@ -139,7 +141,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Docker
+              Kubernetes
             
           </span>
         </div>
@@ -642,7 +644,7 @@
         
   
   <span class="md-ellipsis">
-    projects.md
+    Projects
   </span>
   
 
@@ -824,7 +826,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../virtualbox/" class="md-nav__link">
+      <a href="../1_virtualbox/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -845,11 +847,32 @@
   
   
     <li class="md-nav__item">
-      <a href="../proxmox/" class="md-nav__link">
+      <a href="../2_proxmox/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     Proxmox
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3_docker/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Docker
   </span>
   
 
@@ -879,7 +902,7 @@
           
   
   <span class="md-ellipsis">
-    Docker
+    Kubernetes
   </span>
   
 
@@ -890,7 +913,7 @@
         
   
   <span class="md-ellipsis">
-    Docker
+    Kubernetes
   </span>
   
 
@@ -912,204 +935,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#how-it-works" class="md-nav__link">
+  <a href="#overview" class="md-nav__link">
     <span class="md-ellipsis">
-      How it works
+      Overview
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#getting-started" class="md-nav__link">
+  <a href="#tutorial" class="md-nav__link">
     <span class="md-ellipsis">
-      Getting Started
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Getting Started">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#docker-desktop" class="md-nav__link">
-    <span class="md-ellipsis">
-      Docker Desktop
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#cli" class="md-nav__link">
-    <span class="md-ellipsis">
-      CLI
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#host-to-container-mapping" class="md-nav__link">
-    <span class="md-ellipsis">
-      Host to Container mapping
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Host to Container mapping">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#ports" class="md-nav__link">
-    <span class="md-ellipsis">
-      Ports
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#volumes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Volumes
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Volumes">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#example" class="md-nav__link">
-    <span class="md-ellipsis">
-      Example
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#dockerfile" class="md-nav__link">
-    <span class="md-ellipsis">
-      Dockerfile
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#docker-compose" class="md-nav__link">
-    <span class="md-ellipsis">
-      Docker Compose
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
-    <span class="md-ellipsis">
-      Commands
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Commands">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#container-infos" class="md-nav__link">
-    <span class="md-ellipsis">
-      Container Infos
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#run" class="md-nav__link">
-    <span class="md-ellipsis">
-      Run
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#stop" class="md-nav__link">
-    <span class="md-ellipsis">
-      Stop
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#remove" class="md-nav__link">
-    <span class="md-ellipsis">
-      Remove
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#prune" class="md-nav__link">
-    <span class="md-ellipsis">
-      Prune
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#compose" class="md-nav__link">
-    <span class="md-ellipsis">
-      Compose
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#networking" class="md-nav__link">
-    <span class="md-ellipsis">
-      Networking
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#full-tutorial" class="md-nav__link">
-    <span class="md-ellipsis">
-      Full Tutorial
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#it-lab-collection" class="md-nav__link">
-    <span class="md-ellipsis">
-      IT-Lab Collection
+      Tutorial
     </span>
   </a>
   
@@ -1119,27 +956,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../kubernetes/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Kubernetes
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -1283,7 +1099,7 @@
         
   
   <span class="md-ellipsis">
-    wireshark.md
+    Wireshark
   </span>
   
 
@@ -1474,7 +1290,7 @@
         
   
   <span class="md-ellipsis">
-    smb.md
+    SMB
   </span>
   
 
@@ -1581,7 +1397,7 @@
         
   
   <span class="md-ellipsis">
-    vlan.md
+    VLAN
   </span>
   
 
@@ -1921,7 +1737,7 @@
         
   
   <span class="md-ellipsis">
-    Opnvpn
+    OpenVPN
   </span>
   
 
@@ -1942,7 +1758,7 @@
         
   
   <span class="md-ellipsis">
-    wireguard.md
+    Wireguard
   </span>
   
 
@@ -2210,7 +2026,7 @@
         
   
   <span class="md-ellipsis">
-    Mariadb
+    MariaDB
   </span>
   
 
@@ -2231,7 +2047,7 @@
         
   
   <span class="md-ellipsis">
-    postgres.md
+    Postgres
   </span>
   
 
@@ -2317,7 +2133,7 @@
         
   
   <span class="md-ellipsis">
-    cassandra.md
+    Cassandra
   </span>
   
 
@@ -2338,7 +2154,7 @@
         
   
   <span class="md-ellipsis">
-    mongodb.md
+    MongoDB
   </span>
   
 
@@ -2367,7 +2183,7 @@
         
   
   <span class="md-ellipsis">
-    orm.md
+    ORM
   </span>
   
 
@@ -2735,204 +2551,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#how-it-works" class="md-nav__link">
+  <a href="#overview" class="md-nav__link">
     <span class="md-ellipsis">
-      How it works
+      Overview
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#getting-started" class="md-nav__link">
+  <a href="#tutorial" class="md-nav__link">
     <span class="md-ellipsis">
-      Getting Started
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Getting Started">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#docker-desktop" class="md-nav__link">
-    <span class="md-ellipsis">
-      Docker Desktop
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#cli" class="md-nav__link">
-    <span class="md-ellipsis">
-      CLI
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#host-to-container-mapping" class="md-nav__link">
-    <span class="md-ellipsis">
-      Host to Container mapping
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Host to Container mapping">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#ports" class="md-nav__link">
-    <span class="md-ellipsis">
-      Ports
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#volumes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Volumes
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Volumes">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#example" class="md-nav__link">
-    <span class="md-ellipsis">
-      Example
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#dockerfile" class="md-nav__link">
-    <span class="md-ellipsis">
-      Dockerfile
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#docker-compose" class="md-nav__link">
-    <span class="md-ellipsis">
-      Docker Compose
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
-    <span class="md-ellipsis">
-      Commands
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Commands">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#container-infos" class="md-nav__link">
-    <span class="md-ellipsis">
-      Container Infos
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#run" class="md-nav__link">
-    <span class="md-ellipsis">
-      Run
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#stop" class="md-nav__link">
-    <span class="md-ellipsis">
-      Stop
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#remove" class="md-nav__link">
-    <span class="md-ellipsis">
-      Remove
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#prune" class="md-nav__link">
-    <span class="md-ellipsis">
-      Prune
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#compose" class="md-nav__link">
-    <span class="md-ellipsis">
-      Compose
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#networking" class="md-nav__link">
-    <span class="md-ellipsis">
-      Networking
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#full-tutorial" class="md-nav__link">
-    <span class="md-ellipsis">
-      Full Tutorial
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#it-lab-collection" class="md-nav__link">
-    <span class="md-ellipsis">
-      IT-Lab Collection
+      Tutorial
     </span>
   </a>
   
@@ -2953,7 +2583,7 @@
                   
 
   
-    <a href="https://github.com/skyface753/Trainees-FiSi/tree/main/docs/virtualization/docker.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/skyface753/Trainees-FiSi/tree/main/docs/virtualization/4_kubernetes.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
     </a>
@@ -2961,118 +2591,12 @@
   
 
 
-<h1 id="docker">Docker<a class="headerlink" href="#docker" title="Permanent link">¶</a></h1>
-<p>Docker is a tool to run applications in containers. A container is a lightweight virtual machine. It is a virtual machine because it is isolated from the host system. It is lightweight because it does not need a full operating system. Instead, it uses the host system's kernel. This makes it very fast and efficient. Docker is a tool to manage containers. It is also used by many developers to run their applications locally.</p>
-<p><img alt="VM vs Container" src="../../assets/images/vm-vs-container.avif"/></p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>The running containers are ephemeral. This means that all data in the container is lost when the container is stopped. To persist data, you can map a <a href="#volumes">volume</a> from the host to the container.</p>
-</div>
-<h2 id="how-it-works">How it works<a class="headerlink" href="#how-it-works" title="Permanent link">¶</a></h2>
-<p>The applications run in so-called <code>containers</code>. These containers be descendend from <code>images</code>. <code>Images</code> are the blueprints for <code>containers</code>. These images get generated from <code>Dockerfiles</code>, which are the blueprints for <code>images</code>.
-You can create your own <code>Dockerfiles</code> to create your own <code>images</code> to run your own <code>containers</code>.</p>
-<p>There are also pre-made <code>images</code> available on <a href="https://hub.docker.com/">Docker Hub</a>. These <code>images</code> are created by the community and can be used by everyone.</p>
-<p>When you run a <code>container</code> from a pre-made image, it will be downloaded from the <code>Registry</code> (e.g. Docker Hub) and run on your machine. The <code>Registry</code> is a place where <code>images</code> are stored. You can also create your own <code>Registry</code> to store your own <code>images</code> or upload your own <code>images</code> to Docker Hub.</p>
-<p>You can define multiple <code>containers</code> in a <code>docker-compose.yml</code> file. This way, you can run multiple <code>containers</code> at once.
-Then you can also create dependencies between the <code>containers</code>. For example, you can create a <code>container</code> for a database and a <code>container</code> for a web server. Then you create a dependency between them, so that the web server <code>container</code> will only start when the database <code>container</code> is running.</p>
-<pre class="mermaid"><code>graph TD
-    A[Dockerfile] --&gt; B[Image]
-    B --&gt; C[Web Container]
-    D[Registry download] --&gt; E[Image]
-    E --&gt; F[DB Container]
-    C --&gt; G[Compose]
-    F --&gt; G
-    G --&gt; H[Web Container]
-    G --&gt; I[DB Container]
-    H o--o I
-    H --&gt; J[Port 80]
-    I --&gt; K[Port 3306]</code></pre>
-<h2 id="getting-started">Getting Started<a class="headerlink" href="#getting-started" title="Permanent link">¶</a></h2>
-<p>You can run Docker on your local machine (via <a href="#docker-desktop">Docker Desktop</a>) or on a server (via <a href="#cli">CLI</a>).</p>
-<p>You can find a tutorial on how to get started with Docker <a href="https://docs.docker.com/get-started/">here</a>.</p>
-<h3 id="docker-desktop">Docker Desktop<a class="headerlink" href="#docker-desktop" title="Permanent link">¶</a></h3>
-<p>Docker Desktop is the easiest way to get started with Docker. It is available for Windows and macOS. You can download it <a href="https://docs.docker.com/get-docker/">here</a>.</p>
-<h3 id="cli">CLI<a class="headerlink" href="#cli" title="Permanent link">¶</a></h3>
-<p>If you want to run Docker on a server, you can use it via the CLI<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>. You can install it on Ubuntu with the following command:</p>
-<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>docker.io
-</code></pre></div>
-<h2 id="host-to-container-mapping">Host to Container mapping<a class="headerlink" href="#host-to-container-mapping" title="Permanent link">¶</a></h2>
-<p>When running a container, you can map ports and volumes from the host to the container.</p>
-<p>Its always in the format <code>&lt;host&gt;:&lt;container&gt;</code>. For example, if you want to map port 8080 on the host to port 80 in the container, you would use <code>8080:80</code>.</p>
-<h3 id="ports">Ports<a class="headerlink" href="#ports" title="Permanent link">¶</a></h3>
-<p>For example you want to run <code>docker run -p 8080:80 &lt;image&gt;</code>. This means that you want to run a container from the image <code>&lt;image&gt;</code> and map port 80 in the container to port 8080 on the host. This means that you can access the container via <code>localhost:8080</code>.</p>
-<p>That means you can run multiple containers (e.g. 4 web servers) on the same host, but map them to different ports (e.g. 8080, 8081, 8082, 8083). This way, you can access all of them via the different port (e.g. <code>localhost:8080</code>, <code>localhost:8081</code>, <code>localhost:8082</code>, <code>localhost:8083</code></p>
-<div class="highlight"><pre><span></span><code>docker<span class="w"> </span>run<span class="w"> </span>-p<span class="w"> </span><span class="m">8080</span>:80<span class="w"> </span>nginx
-docker<span class="w"> </span>run<span class="w"> </span>-p<span class="w"> </span><span class="m">8081</span>:80<span class="w"> </span>nginx
-docker<span class="w"> </span>run<span class="w"> </span>-p<span class="w"> </span><span class="m">8082</span>:80<span class="w"> </span>nginx
-docker<span class="w"> </span>run<span class="w"> </span>-p<span class="w"> </span><span class="m">8083</span>:80<span class="w"> </span>nginx
-</code></pre></div>
-<h3 id="volumes">Volumes<a class="headerlink" href="#volumes" title="Permanent link">¶</a></h3>
-<p>As you might know, containers are ephemeral. This means that all data in the container is lost when the container is stopped. To persist data, you can map a volume from the host to the container.</p>
-<p>You can also use this to inject data into the container. For example, you can map a volume from the host to the container and put a file in it. This way, the file will be available in the container.</p>
-<h4 id="example">Example<a class="headerlink" href="#example" title="Permanent link">¶</a></h4>
-<div class="highlight"><pre><span></span><code>docker<span class="w"> </span>run<span class="w"> </span>-v<span class="w"> </span>/some/content:/usr/share/nginx/html<span class="w"> </span>-d<span class="w"> </span>nginx
-</code></pre></div>
-<p>In this example, the content of <code>/some/content</code> on the host will be available in the container at <code>/usr/share/nginx/html</code>.</p>
-<p>So when you create a file <code>/some/content/index.html</code> with the content <code>Hello World!</code>, you can access it in the container at <code>localhost:8080/index.html</code>.</p>
-<h2 id="dockerfile">Dockerfile<a class="headerlink" href="#dockerfile" title="Permanent link">¶</a></h2>
-<div class="highlight"><pre><span></span><code><span class="k">FROM</span><span class="w"> </span><span class="s">ubuntu:latest</span>
-</code></pre></div>
-<h2 id="docker-compose">Docker Compose<a class="headerlink" href="#docker-compose" title="Permanent link">¶</a></h2>
-<p>Docker Compose is a tool to run multiple containers at once. You can define all containers in a <code>docker-compose.yml</code> file. You can find a tutorial on how to get started with Docker Compose <a href="https://docs.docker.com/compose/gettingstarted/">here</a>.</p>
-<h2 id="commands">Commands<a class="headerlink" href="#commands" title="Permanent link">¶</a></h2>
-<p>Some basic commands to get started with Docker:</p>
-<h3 id="container-infos">Container Infos<a class="headerlink" href="#container-infos" title="Permanent link">¶</a></h3>
-<div class="highlight"><pre><span></span><code>docker<span class="w"> </span>ps<span class="w"> </span><span class="c1"># List running containers</span>
-docker<span class="w"> </span>ps<span class="w"> </span>-a<span class="w"> </span><span class="c1"># List all containers (also stopped/failed ones)</span>
-docker<span class="w"> </span>logs<span class="w"> </span>&lt;container&gt;<span class="w"> </span><span class="c1"># Show logs of a container (useful for debugging)</span>
-</code></pre></div>
-<h3 id="run">Run<a class="headerlink" href="#run" title="Permanent link">¶</a></h3>
-<div class="highlight"><pre><span></span><code>docker<span class="w"> </span>run<span class="w"> </span>&lt;image&gt;<span class="w"> </span><span class="c1"># Run a container</span>
-docker<span class="w"> </span>run<span class="w"> </span>-it<span class="w"> </span>&lt;image&gt;<span class="w"> </span><span class="c1"># Run a container and open a shell</span>
-docker<span class="w"> </span>run<span class="w"> </span>-d<span class="w"> </span>&lt;image&gt;<span class="w"> </span><span class="c1"># Run a container in the background</span>
-docker<span class="w"> </span>run<span class="w"> </span>-p<span class="w"> </span>&lt;host-port&gt;:&lt;container-port&gt;<span class="w"> </span>&lt;image&gt;<span class="w"> </span><span class="c1"># Run a container and map a port</span>
-docker<span class="w"> </span>run<span class="w"> </span>-v<span class="w"> </span>&lt;host-path&gt;:&lt;container-path&gt;<span class="w"> </span>&lt;image&gt;<span class="w"> </span><span class="c1"># Run a container and map a volume</span>
-</code></pre></div>
-<h3 id="stop">Stop<a class="headerlink" href="#stop" title="Permanent link">¶</a></h3>
-<div class="highlight"><pre><span></span><code>docker<span class="w"> </span>stop<span class="w"> </span>&lt;container&gt;<span class="w"> </span><span class="c1"># Stop a container</span>
-docker<span class="w"> </span>stop<span class="w"> </span><span class="k">$(</span>docker<span class="w"> </span>ps<span class="w"> </span>-a<span class="w"> </span>-q<span class="k">)</span><span class="w"> </span><span class="c1"># Stop all containers</span>
-</code></pre></div>
-<h3 id="remove">Remove<a class="headerlink" href="#remove" title="Permanent link">¶</a></h3>
-<div class="highlight"><pre><span></span><code>docker<span class="w"> </span>rm<span class="w"> </span>&lt;container&gt;<span class="w"> </span><span class="c1"># Remove a container</span>
-docker<span class="w"> </span>rm<span class="w"> </span><span class="k">$(</span>docker<span class="w"> </span>ps<span class="w"> </span>-a<span class="w"> </span>-q<span class="k">)</span><span class="w"> </span><span class="c1"># Remove all containers</span>
-</code></pre></div>
-<h3 id="prune">Prune<a class="headerlink" href="#prune" title="Permanent link">¶</a></h3>
-<p>Docker stores all images and containers on the host. This can take up a lot of space. To free up space, you can use the <code>prune</code> command.</p>
-<div class="highlight"><pre><span></span><code>docker<span class="w"> </span>system<span class="w"> </span>prune<span class="w"> </span><span class="c1"># Remove all stopped containers, all dangling images, and all unused networks</span>
-docker<span class="w"> </span>system<span class="w"> </span>prune<span class="w"> </span>-a<span class="w"> </span><span class="c1"># Remove all stopped containers, all unused images, and all unused networks</span>
-docker<span class="w"> </span>system<span class="w"> </span>prune<span class="w"> </span>-a<span class="w"> </span>--volumes<span class="w"> </span><span class="c1"># Remove all stopped containers, all unused images, all unused networks, and all unused volumes</span>
-</code></pre></div>
-<h3 id="compose">Compose<a class="headerlink" href="#compose" title="Permanent link">¶</a></h3>
-<div class="highlight"><pre><span></span><code>docker-compose<span class="w"> </span>up<span class="w"> </span><span class="c1"># Run all containers defined in docker-compose.yml</span>
-docker-compose<span class="w"> </span>up<span class="w"> </span>-d<span class="w"> </span><span class="c1"># Run all containers defined in docker-compose.yml in the background</span>
-docker-compose<span class="w"> </span>down<span class="w"> </span><span class="c1"># Stop all containers defined in docker-compose.yml</span>
-docker-compose<span class="w"> </span>down<span class="w"> </span>-v<span class="w"> </span><span class="c1"># Stop all containers defined in docker-compose.yml and remove all volumes</span>
-
-docker-compose<span class="w"> </span>logs<span class="w"> </span><span class="c1"># Show logs of all containers defined in docker-compose.yml</span>
-docker-compose<span class="w"> </span>logs<span class="w"> </span>&lt;container&gt;<span class="w"> </span><span class="c1"># Show logs of a container defined in docker-compose.yml</span>
-docker-compose<span class="w"> </span>logs<span class="w"> </span>-f<span class="w"> </span><span class="c1"># Show logs of all containers defined in docker-compose.yml and follow the output</span>
-</code></pre></div>
-<h2 id="networking">Networking<a class="headerlink" href="#networking" title="Permanent link">¶</a></h2>
-<p>Please watch the following video to learn more about Docker networking:</p>
-<p><a href="https://youtu.be/aMRDZ6Le1Zg"><img class="youtube" src="aMRDZ6Le1Zg-thumb.png" style="margin-top:5px;margin-bottom:5px;margin-right:25px"/>Docker Networking</a></p>
-<h2 id="full-tutorial">Full Tutorial<a class="headerlink" href="#full-tutorial" title="Permanent link">¶</a></h2>
-<p>You can find a full tutorial on how to get started with Docker <a href="https://docs.docker.com/compose/gettingstarted/">here</a>.</p>
-<h2 id="it-lab-collection">IT-Lab Collection<a class="headerlink" href="#it-lab-collection" title="Permanent link">¶</a></h2>
-<p>Refer to our <a href="https://github.com/ITLab-CC/Docker-Collection">Docker-Collection</a> for a collection of Dockerfiles and docker-compose files.</p>
-<div class="footnote">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>CLI = Command Line Interface =&gt; Terminal <a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">↩</a></p>
-</li>
-</ol>
-</div><style type="text/css">.quiz {
+<h1 id="kubernetes">Kubernetes<a class="headerlink" href="#kubernetes" title="Permanent link">¶</a></h1>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">¶</a></h2>
+<p>Kubernetes is the big brother of docker.
+It is a container orchestration system for automating deployment, scaling and management of containerized applications.</p>
+<h2 id="tutorial">Tutorial<a class="headerlink" href="#tutorial" title="Permanent link">¶</a></h2>
+<p>To get started with kubernetes, we have an seperate <a href="https://github.com/ITLab-CC/Kubernetes-Collection">documentation</a></p><style type="text/css">.quiz {
   border: 1px solid black;
   padding: 1rem;
   margin: 1rem 0;
@@ -3203,7 +2727,7 @@ function resetFieldset(fieldset) {
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 27, 2023</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 28, 2023</span>
   </span>
 
     

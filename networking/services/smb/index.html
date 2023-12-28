@@ -22,7 +22,7 @@
     
     
       
-        <title>smb.md - Trainees-FiSi</title>
+        <title>SMB - Trainees-FiSi</title>
       
     
     
@@ -77,6 +77,8 @@
     
       <link rel="stylesheet" href="../../../assets/css/neoteroi-mkdocs.css">
     
+      <link rel="stylesheet" href="../../../assets/css/admonition.css">
+    
     <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -101,6 +103,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#smb" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -134,7 +141,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              smb.md
+              SMB
             
           </span>
         </div>
@@ -637,7 +644,7 @@
         
   
   <span class="md-ellipsis">
-    projects.md
+    Projects
   </span>
   
 
@@ -817,7 +824,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../virtualization/virtualbox/" class="md-nav__link">
+      <a href="../../../virtualization/1_virtualbox/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -838,7 +845,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../virtualization/proxmox/" class="md-nav__link">
+      <a href="../../../virtualization/2_proxmox/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -859,7 +866,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../virtualization/docker/" class="md-nav__link">
+      <a href="../../../virtualization/3_docker/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -880,7 +887,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../virtualization/kubernetes/" class="md-nav__link">
+      <a href="../../../virtualization/4_kubernetes/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1034,7 +1041,7 @@
         
   
   <span class="md-ellipsis">
-    wireshark.md
+    Wireshark
   </span>
   
 
@@ -1229,16 +1236,57 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    SMB
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    smb.md
+    SMB
   </span>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#port" class="md-nav__link">
+    <span class="md-ellipsis">
+      Port
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1342,7 +1390,7 @@
         
   
   <span class="md-ellipsis">
-    vlan.md
+    VLAN
   </span>
   
 
@@ -1682,7 +1730,7 @@
         
   
   <span class="md-ellipsis">
-    Opnvpn
+    OpenVPN
   </span>
   
 
@@ -1703,7 +1751,7 @@
         
   
   <span class="md-ellipsis">
-    wireguard.md
+    Wireguard
   </span>
   
 
@@ -1971,7 +2019,7 @@
         
   
   <span class="md-ellipsis">
-    Mariadb
+    MariaDB
   </span>
   
 
@@ -1992,7 +2040,7 @@
         
   
   <span class="md-ellipsis">
-    postgres.md
+    Postgres
   </span>
   
 
@@ -2078,7 +2126,7 @@
         
   
   <span class="md-ellipsis">
-    cassandra.md
+    Cassandra
   </span>
   
 
@@ -2099,7 +2147,7 @@
         
   
   <span class="md-ellipsis">
-    mongodb.md
+    MongoDB
   </span>
   
 
@@ -2128,7 +2176,7 @@
         
   
   <span class="md-ellipsis">
-    orm.md
+    ORM
   </span>
   
 
@@ -2486,6 +2534,25 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#port" class="md-nav__link">
+    <span class="md-ellipsis">
+      Port
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -2508,13 +2575,10 @@
   
 
 
-  <h1>smb.md</h1>
-
-<p>This is a stub for the smb.md section.</p>
-<p>Please add content to this section.</p>
-<p>If you are seeing this message, please contact the site administrator.</p>
-<p>Thank you!</p>
-<p>This message was automatically generated by the file_check.py script.</p><style type="text/css">.quiz {
+<h1 id="smb">SMB<a class="headerlink" href="#smb" title="Permanent link">¶</a></h1>
+<p>SMB is a protocol used for file sharing. It is used by Windows and other operating systems to provide file sharing capabilities.</p>
+<h2 id="port">Port<a class="headerlink" href="#port" title="Permanent link">¶</a></h2>
+<p>SMB uses port <code>445</code>.</p><style type="text/css">.quiz {
   border: 1px solid black;
   padding: 1rem;
   margin: 1rem 0;

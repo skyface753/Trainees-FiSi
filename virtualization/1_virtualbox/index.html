@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://skyface753.github.io/Trainees-FiSi/virtualization/proxmox/">
+        <link rel="canonical" href="https://skyface753.github.io/Trainees-FiSi/virtualization/1_virtualbox/">
       
       
-        <link rel="prev" href="../virtualbox/">
+        <link rel="prev" href="../">
       
       
-        <link rel="next" href="../docker/">
+        <link rel="next" href="../2_proxmox/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Proxmox - Trainees-FiSi</title>
+        <title>VirtualBox - Trainees-FiSi</title>
       
     
     
@@ -77,6 +77,8 @@
     
       <link rel="stylesheet" href="../../assets/css/neoteroi-mkdocs.css">
     
+      <link rel="stylesheet" href="../../assets/css/admonition.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -103,7 +105,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#proxmox" class="md-skip">
+        <a href="#virtualbox" class="md-skip">
           Skip to content
         </a>
       
@@ -139,7 +141,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Proxmox
+              VirtualBox
             
           </span>
         </div>
@@ -642,7 +644,7 @@
         
   
   <span class="md-ellipsis">
-    projects.md
+    Projects
   </span>
   
 
@@ -821,27 +823,6 @@
                 
   
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../virtualbox/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    VirtualBox
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
     
   
   
@@ -858,7 +839,7 @@
           
   
   <span class="md-ellipsis">
-    Proxmox
+    VirtualBox
   </span>
   
 
@@ -869,7 +850,7 @@
         
   
   <span class="md-ellipsis">
-    Proxmox
+    VirtualBox
   </span>
   
 
@@ -889,6 +870,57 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#background" class="md-nav__link">
+    <span class="md-ellipsis">
+      Background
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Background">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-virtualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is virtualization?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-virtualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why virtualization?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-is-a-vm" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is a VM?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#virtualbox_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      VirtualBox
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#install" class="md-nav__link">
@@ -915,7 +947,28 @@
   
   
     <li class="md-nav__item">
-      <a href="../docker/" class="md-nav__link">
+      <a href="../2_proxmox/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Proxmox
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3_docker/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -936,7 +989,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../kubernetes/" class="md-nav__link">
+      <a href="../4_kubernetes/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1088,7 +1141,7 @@
         
   
   <span class="md-ellipsis">
-    wireshark.md
+    Wireshark
   </span>
   
 
@@ -1279,7 +1332,7 @@
         
   
   <span class="md-ellipsis">
-    smb.md
+    SMB
   </span>
   
 
@@ -1386,7 +1439,7 @@
         
   
   <span class="md-ellipsis">
-    vlan.md
+    VLAN
   </span>
   
 
@@ -1726,7 +1779,7 @@
         
   
   <span class="md-ellipsis">
-    Opnvpn
+    OpenVPN
   </span>
   
 
@@ -1747,7 +1800,7 @@
         
   
   <span class="md-ellipsis">
-    wireguard.md
+    Wireguard
   </span>
   
 
@@ -2015,7 +2068,7 @@
         
   
   <span class="md-ellipsis">
-    Mariadb
+    MariaDB
   </span>
   
 
@@ -2036,7 +2089,7 @@
         
   
   <span class="md-ellipsis">
-    postgres.md
+    Postgres
   </span>
   
 
@@ -2122,7 +2175,7 @@
         
   
   <span class="md-ellipsis">
-    cassandra.md
+    Cassandra
   </span>
   
 
@@ -2143,7 +2196,7 @@
         
   
   <span class="md-ellipsis">
-    mongodb.md
+    MongoDB
   </span>
   
 
@@ -2172,7 +2225,7 @@
         
   
   <span class="md-ellipsis">
-    orm.md
+    ORM
   </span>
   
 
@@ -2540,6 +2593,57 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#background" class="md-nav__link">
+    <span class="md-ellipsis">
+      Background
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Background">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-virtualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is virtualization?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-virtualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why virtualization?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-is-a-vm" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is a VM?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#virtualbox_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      VirtualBox
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#install" class="md-nav__link">
     <span class="md-ellipsis">
       Install
@@ -2563,7 +2667,7 @@
                   
 
   
-    <a href="https://github.com/skyface753/Trainees-FiSi/tree/main/docs/virtualization/proxmox.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/skyface753/Trainees-FiSi/tree/main/docs/virtualization/1_virtualbox.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
     </a>
@@ -2571,15 +2675,26 @@
   
 
 
-<h1 id="proxmox">Proxmox<a class="headerlink" href="#proxmox" title="Permanent link">¶</a></h1>
-<p>Now that we are familiar with the basics of virtualization, let's look at some of the popular virtualization platforms.</p>
-<p><a href="https://www.proxmox.com/en/">Proxmox</a> is a virtualization platform. It gets installed directly on the hardware and provides a web interface to manage the virtual machines (VMs) and containers (LXCs).</p>
+<h1 id="virtualbox">VirtualBox<a class="headerlink" href="#virtualbox" title="Permanent link">¶</a></h1>
+<h2 id="background">Background<a class="headerlink" href="#background" title="Permanent link">¶</a></h2>
+<h3 id="what-is-virtualization">What is virtualization?<a class="headerlink" href="#what-is-virtualization" title="Permanent link">¶</a></h3>
+<p>Virtualization is a technique to run multiple operating systems on one computer.</p>
+<h3 id="why-virtualization">Why virtualization?<a class="headerlink" href="#why-virtualization" title="Permanent link">¶</a></h3>
+<p>Virtualization is used to separate different applications from each other. This is useful if you want to run multiple applications on one computer, but you don't want them to interfere with each other.</p>
+<h3 id="what-is-a-vm">What is a VM?<a class="headerlink" href="#what-is-a-vm" title="Permanent link">¶</a></h3>
+<p>A VM is a virtual machine. It is a full virtualization of a computer. It has its own operating system and its own resources (e.g. CPU, RAM, ...).</p>
+<h2 id="virtualbox_1">VirtualBox<a class="headerlink" href="#virtualbox_1" title="Permanent link">¶</a></h2>
+<p><a href="https://www.virtualbox.org/">VirtualBox</a> is a virtualization software. It gets installed on an operating system and provides a graphical user interface (GUI) to manage the virtual machines (VMs).</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Proxmox is a operating system, so you can't use it in parallel to another operating system. (But you can install Proxmox on a VM.)</p>
+<p>VirtualBox is just a software that gets installed on an operating system, so you can use it in parallel to your operating system. (But you must share the resources of your computer between the operating system and VirtualBox.)</p>
 </div>
 <h2 id="install">Install<a class="headerlink" href="#install" title="Permanent link">¶</a></h2>
-<p>Please follow the <a href="https://www.proxmox.com/en/proxmox-virtual-environment/get-started">official installation guide</a>.</p><style type="text/css">.quiz {
+<p>Please follow the <a href="https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview">official installation guide</a></p>
+<div class="quiz"><h3>How much RAM can you give your VM, if you have 8 GB RAM on your computer?</h3><form><fieldset><div><input id="quiz-0-0" name="answer" type="radio" value="0"/><label for="quiz-0-0">8 GB</label></div><div><input correct="" id="quiz-0-1" name="answer" type="radio" value="1"/><label for="quiz-0-1">&lt; 8 GB</label></div></fieldset><button class="quiz-button" type="submit">Submit</button></form><section class="content hidden">
+<h4> Great! </h4>
+
+A VM can only use the resources that are available on the host system. So if you have 8GB RAM on your computer, you can't give 8 GB RAM to your VM.</section></div><style type="text/css">.quiz {
   border: 1px solid black;
   padding: 1rem;
   margin: 1rem 0;
@@ -2710,7 +2825,7 @@ function resetFieldset(fieldset) {
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 26, 2023</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 28, 2023</span>
   </span>
 
     

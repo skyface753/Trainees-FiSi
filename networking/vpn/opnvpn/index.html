@@ -22,7 +22,7 @@
     
     
       
-        <title>Opnvpn - Trainees-FiSi</title>
+        <title>OpenVPN - Trainees-FiSi</title>
       
     
     
@@ -77,6 +77,8 @@
     
       <link rel="stylesheet" href="../../../assets/css/neoteroi-mkdocs.css">
     
+      <link rel="stylesheet" href="../../../assets/css/admonition.css">
+    
     <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -101,6 +103,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#openvpn" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -134,7 +141,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Opnvpn
+              OpenVPN
             
           </span>
         </div>
@@ -637,7 +644,7 @@
         
   
   <span class="md-ellipsis">
-    projects.md
+    Projects
   </span>
   
 
@@ -817,7 +824,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../virtualization/virtualbox/" class="md-nav__link">
+      <a href="../../../virtualization/1_virtualbox/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -838,7 +845,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../virtualization/proxmox/" class="md-nav__link">
+      <a href="../../../virtualization/2_proxmox/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -859,7 +866,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../virtualization/docker/" class="md-nav__link">
+      <a href="../../../virtualization/3_docker/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -880,7 +887,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../virtualization/kubernetes/" class="md-nav__link">
+      <a href="../../../virtualization/4_kubernetes/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1034,7 +1041,7 @@
         
   
   <span class="md-ellipsis">
-    wireshark.md
+    Wireshark
   </span>
   
 
@@ -1225,7 +1232,7 @@
         
   
   <span class="md-ellipsis">
-    smb.md
+    SMB
   </span>
   
 
@@ -1332,7 +1339,7 @@
         
   
   <span class="md-ellipsis">
-    vlan.md
+    VLAN
   </span>
   
 
@@ -1676,12 +1683,14 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    Opnvpn
+    OpenVPN
   </span>
   
 
@@ -1703,7 +1712,7 @@
         
   
   <span class="md-ellipsis">
-    wireguard.md
+    Wireguard
   </span>
   
 
@@ -1971,7 +1980,7 @@
         
   
   <span class="md-ellipsis">
-    Mariadb
+    MariaDB
   </span>
   
 
@@ -1992,7 +2001,7 @@
         
   
   <span class="md-ellipsis">
-    postgres.md
+    Postgres
   </span>
   
 
@@ -2078,7 +2087,7 @@
         
   
   <span class="md-ellipsis">
-    cassandra.md
+    Cassandra
   </span>
   
 
@@ -2099,7 +2108,7 @@
         
   
   <span class="md-ellipsis">
-    mongodb.md
+    MongoDB
   </span>
   
 
@@ -2128,7 +2137,7 @@
         
   
   <span class="md-ellipsis">
-    orm.md
+    ORM
   </span>
   
 
@@ -2486,6 +2495,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -2522,9 +2533,8 @@
   
 
 
-  <h1>Opnvpn</h1>
-
-<style type="text/css">.quiz {
+<h1 id="openvpn">OpenVPN<a class="headerlink" href="#openvpn" title="Permanent link">¶</a></h1>
+<p>OpenVPN is a VPN protocol that is very popular and widely used.</p><style type="text/css">.quiz {
   border: 1px solid black;
   padding: 1rem;
   margin: 1rem 0;
@@ -2655,7 +2665,7 @@ function resetFieldset(fieldset) {
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 27, 2023</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 28, 2023</span>
   </span>
 
     
