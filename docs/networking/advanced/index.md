@@ -1,8 +1,8 @@
 ---
-title: projects.md
+title: advanced
 ---
 
-This is a stub for the projects.md section.
+This is a stub for the advanced section.
 
 Please add content to this section.
 

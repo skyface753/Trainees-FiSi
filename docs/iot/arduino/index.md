@@ -1,8 +1,8 @@
 ---
-title: projects.md
+title: arduino
 ---
 
-This is a stub for the projects.md section.
+This is a stub for the arduino section.
 
 Please add content to this section.
 

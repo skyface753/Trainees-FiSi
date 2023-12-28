@@ -2,7 +2,6 @@ nav:
 
 - Home:
   - index.md
-  - self_doc.md
 - IoT: iot
 - virtualization
 - networking

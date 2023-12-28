@@ -29,7 +29,8 @@ How does a client connect to a server?
 3. Client connects to `192.168.178.2` on port 445 (SMB)
 
 !!! note
-DNS does not care about ports
+
+    DNS does not care about ports
 
 ## How does a server know which service to use?
 

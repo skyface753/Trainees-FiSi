@@ -1,8 +1,8 @@
 ---
-title: projects.md
+title: dwt
 ---
 
-This is a stub for the projects.md section.
+This is a stub for the dwt section.
 
 Please add content to this section.
 

@@ -7,6 +7,16 @@ on:
 permissions:
   contents: write
 jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+      - run: python scripts/file_check.py
+      - run: pip install -r requirements.docs.txt
+      - run: mkdocs build --strict
   deploy:
     runs-on: ubuntu-latest
     steps:
@@ -22,6 +32,7 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
+      - run: python
       - run: pip install -r requirements.docs.txt
       - run: mkdocs gh-deploy --force
         env:

@@ -12,7 +12,7 @@ This is a documentation to learn the basics as an FiSi trainee.
 
 ## Main topics
 
-- First, we will do a few projects with [Boards](iot/index.md), like the Raspberry Pi, to get familiar with some basic hardware.
+- First, we will do a few projects with [IoT Boards](iot/index.md), like the Raspberry Pi, to get familiar with some basic hardware.
 - After that, we will setup some [virtual machines](virtualization/index.md) to a basic infrastructure.
 - Then we will setup a [network](networking/index.md) with a router and real switches.
   - We will also setup some servers and services to get a infrastructure like a company would have (e.g. a webserver, a mailserver, a fileserver, ...)

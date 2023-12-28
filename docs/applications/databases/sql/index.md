@@ -1,8 +1,8 @@
 ---
-title: projects.md
+title: sql
 ---
 
-This is a stub for the projects.md section.
+This is a stub for the sql section.
 
 Please add content to this section.
 

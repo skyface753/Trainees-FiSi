@@ -1,8 +1,8 @@
 ---
-title: projects.md
+title: vpn
 ---
 
-This is a stub for the projects.md section.
+This is a stub for the vpn section.
 
 Please add content to this section.
 

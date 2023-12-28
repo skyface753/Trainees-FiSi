@@ -1,8 +1,8 @@
 ---
-title: projects.md
+title: wifi
 ---
 
-This is a stub for the projects.md section.
+This is a stub for the wifi section.
 
 Please add content to this section.
 
