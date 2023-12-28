@@ -1,0 +1,27 @@
+[
+  {
+    "title": "IoT",
+    "content": "Get familiar with IoT Boards, like Arduino, Raspberry Pi, etc.",
+    "icon": ":material-rocket-launch:",
+    "sub_title": "2022-Q1"
+  },
+  {
+    "title": "Virtualization",
+    "content": "Learn about some basic virtualization technologies, like VirtualBox, Docker, etc.",
+    "icon": ":octicons-sun-16:",
+    "key": "cyan",
+    "sub_title": "2022-Q2"
+  },
+  {
+    "title": "Networking",
+    "content": "Now you learn how to build your own simple network, and know how to use some basic network tools.",
+    "icon": ":material-github:",
+    "sub_title": "2022-Q3"
+  },
+  {
+    "title": "Applications",
+    "content": "After you have your own network, you can now deploy some applications, like databases, nextcloud, etc.",
+    "key": "pink",
+    "sub_title": "2022-Q4"
+  }
+]
