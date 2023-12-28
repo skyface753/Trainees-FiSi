@@ -2,6 +2,7 @@ nav:
 
 - Home:
   - index.md
+  - tags.md
 - IoT: iot
 - virtualization
 - networking

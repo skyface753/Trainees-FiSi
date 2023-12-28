@@ -11,3 +11,4 @@ mkdocs-thumbnails
 neoteroi-mkdocs
 mkdocs-git-revision-date-localized-plugin
 mkdocs-git-authors-plugin
+mdx_truly_sane_lists

@@ -61,6 +61,7 @@ markdown_extensions:
   - neoteroi.timeline
   - toc:
       permalink: true
+  - mdx_truly_sane_lists
 
 extra:
   tags:
@@ -77,7 +78,8 @@ plugins:
       enabled: !ENV [ENABLED_GIT_PLUGINS, True]
   - mkdocs_quiz
   - open-in-new-tab # Open all external links in a new tab
-  - tags
+  - tags:
+      tags_file: tags.md
   - thumbnails:
       style: margin-top:5px;margin-bottom:5px;margin-right:25px
   # Last plugin

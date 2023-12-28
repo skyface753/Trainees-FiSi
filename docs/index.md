@@ -26,9 +26,13 @@ Some other useful tools:
 
 - [jq](https://jqlang.github.io/jq/)
 - Built-in:
+
   - [grep](https://www.gnu.org/software/grep/)
   - [sed](https://www.gnu.org/software/sed/)
   - [awk](https://www.gnu.org/software/gawk/manual/gawk.html)
+
+- jdew
+  - cehcbj
 
 <?quiz?>
 

@@ -1,5 +1,5 @@
 ---
-tags: optional
+tags: [optional]
 ---
 
 # Coding

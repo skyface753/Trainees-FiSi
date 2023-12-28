@@ -1,5 +1,5 @@
 ---
-tags: CLI, Tools
+tags: [CLI, Tools]
 ---
 
 # Network Tools
