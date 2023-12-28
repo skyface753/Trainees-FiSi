@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://skyface753.github.io/Trainees-FiSi/tags/</loc>
+         <lastmod>2023-12-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/ai/</loc>
          <lastmod>2023-12-28</lastmod>
          <changefreq>daily</changefreq>
@@ -262,6 +267,11 @@
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/virtualization/4_kubernetes/</loc>
+         <lastmod>2023-12-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://skyface753.github.io/Trainees-FiSi/tags/</loc>
          <lastmod>2023-12-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
