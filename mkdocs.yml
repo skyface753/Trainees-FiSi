@@ -68,6 +68,12 @@ extra:
     Service: service
 plugins:
   - search
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
   - awesome-pages
   - git-revision-date-localized:
       enabled: !ENV [ENABLED_GIT_PLUGINS, True]
