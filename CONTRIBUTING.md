@@ -48,3 +48,18 @@ nav:
 To create a quiz in this project, see [mkdocs_quiz](https://github.com/skyface753/mkdocs-quiz).
 
 Quizzes are used to test the knowledge of the trainee. They should be used (but not needed) at the end of each topic.
+
+## Admonitions
+
+### Goal
+
+Define the goals of the current topic at the **end** of the topic.
+
+```markdown
+!!! goal
+
+    Goals for this section:
+
+    - Learn how to use admonitions
+    - Learn how to use admonitions in admonitions
+```

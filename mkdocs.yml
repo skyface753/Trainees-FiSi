@@ -43,6 +43,7 @@ theme:
       service: material/apps
 extra_css:
   - assets/css/neoteroi-mkdocs.css
+  - assets/css/admonition.css
 markdown_extensions:
   - attr_list
   - footnotes
