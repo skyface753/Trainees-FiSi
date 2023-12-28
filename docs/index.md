@@ -12,7 +12,7 @@ This is a documentation to learn the basics as an FiSi trainee.
 
 ## Main topics
 
-- First, we will do a few projects with [Boards](boards/index.md), like the Raspberry Pi, to get familiar with some basic hardware.
+- First, we will do a few projects with [Boards](iot/index.md), like the Raspberry Pi, to get familiar with some basic hardware.
 - After that, we will setup some [virtual machines](virtualization/index.md) to a basic infrastructure.
 - Then we will setup a [network](networking/index.md) with a router and real switches.
   - We will also setup some servers and services to get a infrastructure like a company would have (e.g. a webserver, a mailserver, a fileserver, ...)
@@ -21,6 +21,14 @@ This is a documentation to learn the basics as an FiSi trainee.
 ## Prepare yourself
 
 - Get familiar with the [Linux command line](https://www2.icp.uni-stuttgart.de/~icp/mediawiki/images/b/bd/Sim_Meth_I_T0_cheat_sheet_10_11.pdf)
+
+Some other useful tools:
+
+- [jq](https://jqlang.github.io/jq/)
+- Built-in:
+  - [grep](https://www.gnu.org/software/grep/)
+  - [sed](https://www.gnu.org/software/sed/)
+  - [awk](https://www.gnu.org/software/gawk/manual/gawk.html)
 
 <?quiz?>
 

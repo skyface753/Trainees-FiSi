@@ -3,9 +3,10 @@ nav:
 - Home:
   - index.md
   - self_doc.md
-- boards
+- IoT: iot
 - virtualization
 - networking
+- security
 - applications
 - coding
 - AI: ai

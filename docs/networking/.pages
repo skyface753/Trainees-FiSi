@@ -1,6 +1,7 @@
 nav:
 
 - index.md
+- tools.md
 - starting_point.md
 - wireshark.md
 - services
