@@ -3,11 +3,12 @@ nav:
 - Home:
   - index.md
   - tags.md
-- IoT: iot
-- virtualization
-- networking
-- security
-- applications
-- coding
-- AI: ai
+- IoT: 1_iot
+- Virtualization: 2_virtualization
+- Networking: 3_networking
+- Security: 4_security
+- Tools: 5_tools
+- Applications: 6_applications
+- Coding: 7_coding
+- AI: 8_ai
 - ...

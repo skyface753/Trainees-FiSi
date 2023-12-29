@@ -63,3 +63,22 @@ Define the goals of the current topic at the **end** of the topic.
     - Learn how to use admonitions
     - Learn how to use admonitions in admonitions
 ```
+
+## Custom classes
+
+There are some custom classes defined in the `docs/assets/css/extra.css` file.
+
+### Images
+
+Possible classes for images:
+
+- `.image-small`
+- `.image-medium`
+- `.image-large`
+- `.image-x-large`
+
+Use them like this:
+
+```markdown
+![Image](../../assets/images/image.jpg){: .image-medium}
+```

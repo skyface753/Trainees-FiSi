@@ -44,6 +44,7 @@ theme:
 extra_css:
   - assets/css/neoteroi-mkdocs.css
   - assets/css/admonition.css
+  - assets/css/extra.css
 markdown_extensions:
   - attr_list
   - footnotes
