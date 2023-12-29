@@ -7,3 +7,5 @@ Arduino is an microcontroller platform that is used to build electronic devices.
 !!! info
 
     It can only run one program at a time. It is not a general purpose computer.
+
+## [Arduino IDE](https://www.arduino.cc/en/software)
