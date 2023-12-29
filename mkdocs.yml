@@ -69,6 +69,7 @@ extra:
     Service: service
 plugins:
   - search
+  - autolinks
   - minify:
       minify_html: true
       minify_js: true

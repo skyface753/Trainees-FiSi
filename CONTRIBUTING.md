@@ -64,6 +64,31 @@ Define the goals of the current topic at the **end** of the topic.
     - Learn how to use admonitions in admonitions
 ```
 
+## Links
+
+The [Autolinks](https://github.com/zachhannum/mkdocs-autolinks-plugin) plugins is installed, so you can use autolinks like this:
+
+```bash
+docs/
+├── guides/
+│   ├── onboarding.md
+│   └── syntax_guide.md
+├── software/
+│   ├── git_flow.md
+│   └── code_reviews.md
+└── images/
+    ├── avatar.png
+    └── example.jpg
+```
+
+```markdown
+[git_flow](git_flow.md)
+```
+
+!!! note
+
+    When multiple files with the same name exist, the plugin will throw an error.
+
 ## Custom classes
 
 There are some custom classes defined in the `docs/assets/css/extra.css` file.
