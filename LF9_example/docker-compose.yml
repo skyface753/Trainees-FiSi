@@ -1,0 +1,152 @@
+services:
+  dns: # unbound
+    image: mvance/unbound:latest
+    ports:
+      - '54:53/udp'
+    networks:
+      - external-net
+    volumes:
+      # - ./dns/a-records.conf:/opt/unbound/etc/unbound/a-records.conf:ro
+      - ./unbound:/opt/unbound/etc/unbound
+
+  samba:
+    image: dperson/samba:latest
+    environment:
+      TZ: 'Europe/Berlin'
+    networks:
+      - external-net
+    ports:
+      - '137:137/udp'
+      - '138:138/udp'
+      - '139:139/tcp'
+      - '445:445/tcp'
+    restart: unless-stopped
+    volumes:
+      - ./samba/pub:/mnt-pub:z
+      - ./samba/benutzer1:/mnt-benutzer1:z
+      - ./samba/benutzer2:/mnt-benutzer2:z
+    # Folgendes Schema hat der "-u" Befehl:
+    # -u "Benutzername;Passwort"
+    # Folgendes Schema hat der "-s" Befehl:
+    # -s Ordner Name; /Speicherort; Ordner Durchsuchen erlauben; nur
+    # Lesen/Sehen; Gäste erlauben; Benutzer; Admins; Schreibberechtigungsliste;
+    # Beschreibung des Ornders]
+    # -g "log level = 2"
+    command: '
+      -s "benutzer1;/mnt-benutzer1;yes;no;no;benutzer1;no;no;Benutzer 1" -u
+      "benutzer1;pw1" -p -s "pub;/mnt-pub;yes;yes;yes;all;no;no;Downloadbereich" -p -s
+      "benutzer2;/mnt-benutzer2;yes;no;no;benutzer2;no;no;Benutzer 2" -u "benutzer2;pw2"'
+
+  sftp:
+    image: atmoz/sftp
+    ports:
+      - '22:22'
+    networks:
+      - external-net
+    volumes:
+      - ./sftp/data:/home
+      - ./sftp/users.conf:/etc/sftp/users.conf:ro
+
+  nginx: # with 2 sites + reverse proxy
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    networks:
+      - external-net # To access from outside
+      - web-inner-net # For the reverse proxy to phpmyadmin
+    ports:
+      - '80:80'
+    depends_on:
+      - phpmyadmin
+    volumes:
+      # "Site1" was build (see Dockerfile) and is now in the image => You need to rebuild the image to change it
+      - './web/site2.com:/var/www/site2.com:ro' # Site2 is mounted => You can change it without rebuilding the image
+
+  db:
+    image: mariadb:latest
+    environment: # See .env file
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    ports:
+      - '127.0.0.1:3306:3306' # Only allow local connections
+    volumes:
+      - dbdata:/var/lib/mysql
+    networks:
+      - web-inner-net
+
+  phpmyadmin: # No ports are exposed to the host => it will be exposed via the nginx container
+    image: phpmyadmin/phpmyadmin
+    links:
+      - db
+    depends_on:
+      - db
+    environment:
+      PMA_HOST: ${PMA_HOST}
+      PMA_PORT: ${PMA_PORT}
+      PMA_ARBITRARY: ${PMA_ARBITRARY}
+    restart: always
+    networks:
+      - web-inner-net
+
+  mumble-server:
+    image: mumblevoip/mumble-server:latest
+    container_name: mumble-server
+    hostname: mumble-server
+    restart: on-failure
+    networks:
+      - mumble-net
+      - external-net
+    depends_on:
+      mu-db:
+        condition: service_healthy
+    environment:
+      - MUMBLE_CONFIG_SERVER_PASSWORD=letmein
+      - MUMBLE_CONFIG_DBDRIVER=QMYSQL
+      - MUMBLE_CONFIG_DBHOST=mu-db
+      - MUMBLE_CONFIG_DATABASE=mumble
+      - MUMBLE_CONFIG_DBUSERNAME=mumble
+      - MUMBLE_CONFIG_DBPASSWORD=mumble
+    ports:
+      - 64738:64738
+      - 64738:64738/udp
+    volumes:
+      - ./mumble-server/data:/data
+
+  mu-db:
+    image: mariadb:latest
+    container_name: mu-db
+    hostname: mu-db
+    restart: on-failure
+    networks:
+      - mumble-net
+    environment:
+      - MYSQL_ROOT_PASSWORD=$MYSQL_ROOT_PASSWORD
+      - MYSQL_DATABASE=mumble
+      - MYSQL_USER=mumble
+      - MYSQL_PASSWORD=mumble
+    healthcheck:
+      test:
+        [
+          'CMD',
+          'healthcheck.sh',
+          '--su-mysql',
+          '--connect',
+          '--innodb_initialized',
+        ]
+      timeout: 2s
+      retries: 10
+
+volumes:
+  dbdata:
+
+networks:
+  external-net:
+    driver: bridge
+  mumble-net:
+    driver: bridge
+  web-net:
+    driver: bridge
+  web-inner-net:
+    driver: bridge
