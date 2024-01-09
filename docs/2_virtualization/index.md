@@ -24,3 +24,7 @@ After that you can proceed with Proxmox, which is a more advanced VM software. I
 Docker uses a different approach for virtualization. It uses containers instead of VMs. This allows you to run multiple applications on a single host system. This is a more advanced topic, but is more and more used in the industry.
 
 Kubernetes is the big brother of docker. It is really complex. For this reason, its not necessary to learn it, but it is a good to know.
+
+## Prior Knowledge
+
+Please read the [prior knowledge](prior_knowledge/index.md) before you start with the virtualization.

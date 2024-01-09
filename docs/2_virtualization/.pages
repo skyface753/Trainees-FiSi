@@ -1,8 +1,5 @@
-<!-- nav:
+nav:
 
-- index.md
-- 1_virtualbox.md
-- proxmox.md
-- docker.md
-- kubernetes.md
-- ... -->
+- Virtualization: index.md
+- Prior Knowledge: prior_knowledge
+- ...

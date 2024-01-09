@@ -2,6 +2,14 @@
 
 This is a documentation to learn the basics as an FiSi trainee.
 
+## Granularity
+
+This documentation should just be a rough overview of the topics. It should not be too detailed, because you should learn to find information yourself. You should also learn to ask the right questions or Google the right keywords.
+
+!!! note
+
+    All subjects in this docu are already covered somewhere in the internet. I dont wont to reinvent the wheel. I just want to give you a rough overview and some links to get started.
+
 ## Structure
 
 [timeline(docs/timeline.json)]
@@ -9,6 +17,28 @@ This is a documentation to learn the basics as an FiSi trainee.
 !!! note
 
     There are some further topics in the navigation bar, but they are not essential for the trainee project.
+
+```mermaid
+gitGraph TB:
+  commit id: "Welcome"
+  branch iot
+  checkout iot
+  commit id: "Arduino"
+  commit id: "Raspberry Pi"
+  commit id: "ESP32"
+  checkout main
+  merge iot tag: "You are now a Microcontroller Master!"
+  branch virtualization
+  checkout virtualization
+  commit id: "VirtualBox"
+  commit id: "Proxmox"
+  commit id: "Docker"
+  checkout main
+  merge virtualization tag: "You are now able to virtualize stuff!"
+  branch networking
+  checkout networking
+  commit id: "Router"
+```
 
 ## Main topics
 

@@ -11,3 +11,7 @@ Machine Learning is a subfield of Artificial Intelligence. It is about creating 
 ## Getting started
 
 To get started with Machine Learning, you should complete (more or less) the [google course](https://developers.google.com/machine-learning/crash-course/ml-intro)
+
+## LLM
+
+https://github.com/mlabonne/llm-course
