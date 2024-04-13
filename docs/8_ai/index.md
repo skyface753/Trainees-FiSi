@@ -14,4 +14,4 @@ To get started with Machine Learning, you should complete (more or less) the [go
 
 ## LLM
 
-https://github.com/mlabonne/llm-course
+<https://github.com/mlabonne/llm-course>

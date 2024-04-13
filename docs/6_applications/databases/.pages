@@ -1,6 +1,6 @@
 nav:
 
 - index.md
-- sql
-- nosql
+- SQL: sql
+- NoSQL: nosql
 - orm.md

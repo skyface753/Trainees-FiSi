@@ -1,0 +1,5 @@
+nav:
+  - Home: index.md
+  - MariaDB: mariadb.md
+  - PostgreSQL: postgres.md
+  - Playground: playground.md
