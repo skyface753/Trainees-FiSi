@@ -1,0 +1,6 @@
+nav:
+  - Home: index.md
+  - Arduino: arduino
+  - Raspberry Pi: raspi
+  - ESP32: esp32.md
+  - 3D Printing: 3dprinting
