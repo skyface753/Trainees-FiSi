@@ -3,25 +3,45 @@
     "title": "IoT",
     "content": "Get familiar with IoT Boards, like Arduino, Raspberry Pi, etc.",
     "icon": ":material-rocket-launch:",
-    "sub_title": "2022-Q1"
+    "sub_title": "1 Month"
   },
   {
     "title": "Virtualization",
     "content": "Learn about some basic virtualization technologies, like VirtualBox, Docker, etc.",
     "icon": ":octicons-sun-16:",
     "key": "cyan",
-    "sub_title": "2022-Q2"
+    "sub_title": "1 Month"
   },
   {
     "title": "Networking",
     "content": "Now you learn how to build your own simple network, and know how to use some basic network tools.",
     "icon": ":material-github:",
-    "sub_title": "2022-Q3"
+    "sub_title": "1 Month"
+  },
+  {
+    "title": "Backup",
+    "content": "Learn how to backup your data, and how to recover it.",
+    "icon": ":material-backup-restore:",
+    "key": "green",
+    "sub_title": "2 Weeks"
+  },
+  {
+    "title": "Security",
+    "content": "Learn how to secure your network, and how to protect your data.",
+    "icon": ":material-security:",
+    "sub_title": "1 Month"
+  },
+  {
+    "title": "Tools",
+    "content": "Learn how to use some basic tools, like Ansible, etc.",
+    "icon": ":material-tools:",
+    "key": "purple",
+    "sub_title": "1 Month"
   },
   {
     "title": "Applications",
     "content": "After you have your own network, you can now deploy some applications, like databases, nextcloud, etc.",
     "key": "pink",
-    "sub_title": "2022-Q4"
+    "sub_title": "2 Months"
   }
 ]

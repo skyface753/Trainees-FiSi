@@ -236,6 +236,21 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://skyface753.github.io/Trainees-FiSi/5_tools/monitoring/</loc>
+         <lastmod>2024-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://skyface753.github.io/Trainees-FiSi/5_tools/monitoring/prometheus/</loc>
+         <lastmod>2024-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://skyface753.github.io/Trainees-FiSi/5_tools/monitoring/uptime/</loc>
+         <lastmod>2024-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/6_applications/</loc>
          <lastmod>2024-04-13</lastmod>
          <changefreq>daily</changefreq>
