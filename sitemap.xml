@@ -236,6 +236,26 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://skyface753.github.io/Trainees-FiSi/6_applications/data_warehouse/</loc>
+         <lastmod>2024-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://skyface753.github.io/Trainees-FiSi/6_applications/data_warehouse/apple_health/</loc>
+         <lastmod>2024-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://skyface753.github.io/Trainees-FiSi/6_applications/data_warehouse/data_warehouse/</loc>
+         <lastmod>2024-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://skyface753.github.io/Trainees-FiSi/6_applications/data_warehouse/titanic/</loc>
+         <lastmod>2024-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/6_applications/databases/</loc>
          <lastmod>2024-04-13</lastmod>
          <changefreq>daily</changefreq>
@@ -417,26 +437,6 @@
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/8_ai/</loc>
-         <lastmod>2024-04-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/8_ai/data_warehouse/</loc>
-         <lastmod>2024-04-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/8_ai/data_warehouse/apple_health/</loc>
-         <lastmod>2024-04-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/8_ai/data_warehouse/data_warehouse/</loc>
-         <lastmod>2024-04-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/8_ai/data_warehouse/titanic/</loc>
          <lastmod>2024-04-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
