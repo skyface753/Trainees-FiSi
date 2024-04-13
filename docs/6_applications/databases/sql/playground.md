@@ -147,6 +147,91 @@ Detail: Key (serie_pk)=(1) is still referenced from table "episode".
 
 > **Explanation:** There are still episodes of Breaking Bad that reference the series
 
+### Constraints
+
+You can also download the [constraint-files](../../../assets/data/db/constraints.sql){:download="constraints.sql"} and execute them in DBeaver.
+
+#### Prepare
+
+```sql
+-- 1. Fügen Sie der Tabelle Vertrageinen CHECKConstraint hinzu, so dass Abopreise niemals kleiner werden können als 10€. Verwenden Sie hierfür eine ALTER TABLE Anweisung
+alter table STREAMING.vertrag add constraint check_monatspreis check (monatspreis >= 10);
+-- 2. Fügen Sie einen Constraint hinzu, der verbietet, dass negative Ratings für Episoden eingetragen werden. Benennen Sie den Constraint mit „keine_negativen_rating“
+alter table STREAMING.episode add constraint keine_negativen_rating check (imdb_rating >= 0);
+-- 3. Fügen Sie weiterhin einen DEFAULT-Wert von 8 für die Ratings hinzu. Verwenden Sie hierfür jeweils ALTER TABLE Anweisungen.
+alter table STREAMING.episode alter column imdb_rating set default 8;
+```
+
+#### Check
+
+```sql
+-- Should fail
+insert into STREAMING.Vertrag
+    (streamingdienst_fk, email_fk, Monatspreis, Vertragslaufzeit) values
+    (4, 'peter.feldmann@awo.de', 9, '2024-01-01');
+-- Should fail
+insert into STREAMING.episode
+    (serie_pk, episode_pk, staffel, titel, IMDB_Rating) values
+    (1, 17, 5, 'Live Free or Die', -1);
+
+-- Should work
+insert into STREAMING.episode
+    (serie_pk, episode_pk, staffel, titel) values
+    (1, 17, 5, 'Live Free or Die');
+select * from STREAMING.episode where serie_pk = 1 and episode_pk = 17;
+```
+
+### Functions
+
+!!! warning
+
+    **Attention:** Only works with PostgreSQL!!!
+
+```sql
+-- Function to check if a slot is free
+-- Returns a boolean
+create or replace function isFreeSlot(pSender_pk integer, pStartzeit timestamp, pEndzeit timestamp) returns boolean as $$
+declare
+    vCount integer;
+begin
+    select count(*) into vCount from STREAMING.Ausstrahlung where sender_pk = pSender_pk and (Startzeit, Endzeit) overlaps (pStartzeit, pEndzeit);
+    return vCount = 0;
+end;
+$$ language plpgsql;
+
+-- Trigger function to check if a slot is free
+create or replace function checkFreeSlot() returns trigger as $$
+begin
+    if not isFreeSlot(new.sender_pk, new.Startzeit, new.Endzeit) then
+        raise exception 'Slot is not free';
+    end if;
+    return new;
+end;
+$$ language plpgsql;
+
+-- Trigger to check if a slot is free
+create or replace trigger checkFreeSlot before insert on STREAMING.ausstrahlung for each row execute procedure checkFreeSlot();
+
+-- Test the function
+select isFreeSlot(5, '2023-05-01 15:29:00', '2023-05-01 15:30:00');
+select isFreeSlot(5, '2023-05-01 15:30:00', '2023-05-01 15:31:00');
+select isFreeSlot(5, '2023-05-01 18:30:00', '2023-05-01 18:31:00');
+
+-- Test the trigger
+--- Should Fail
+insert into STREAMING.Ausstrahlung (serie_pk, episode_pk, Staffel, sender_pk, Ausstahlungsnummer, Startzeit, Endzeit) values (3, 1, 1, 5, 1, '2023-05-01 15:30', '2023-05-01 16:30');
+insert into STREAMING.Ausstrahlung (serie_pk, episode_pk, Staffel, sender_pk, Ausstahlungsnummer, Startzeit, Endzeit) values (3, 2, 1, 5, 2, '2023-05-01 16:30', '2023-05-01 17:30');
+insert into STREAMING.Ausstrahlung (serie_pk, episode_pk, Staffel, sender_pk, Ausstahlungsnummer, Startzeit, Endzeit) values (3, 2, 1, 5, 3, '2023-05-01 17:30', '2023-05-01 18:30');
+
+insert into STREAMING.Ausstrahlung (serie_pk, episode_pk, Staffel, sender_pk, Ausstahlungsnummer, Startzeit, Endzeit) values (2, 1, 1, 4, 4, '2023-05-01 16:00', '2023-05-01 17:00');
+insert into STREAMING.Ausstrahlung (serie_pk, episode_pk, Staffel, sender_pk, Ausstahlungsnummer, Startzeit, Endzeit) values (2, 2, 1, 4, 5, '2023-05-01 17:00', '2023-05-01 18:00');
+insert into STREAMING.Ausstrahlung (serie_pk, episode_pk, Staffel, sender_pk, Ausstahlungsnummer, Startzeit, Endzeit) values (2, 3, 1, 4, 6, '2023-05-01 18:00', '2023-05-01 19:00');
+-- Should success
+insert into STREAMING.Ausstrahlung (serie_pk, episode_pk, Staffel, sender_pk, Ausstahlungsnummer, Startzeit, Endzeit) values  (2, 1, 1, 4, 7, '2023-05-01 19:00', '2023-05-01 20:00');
+insert into STREAMING.Ausstrahlung (serie_pk, episode_pk, Staffel, sender_pk, Ausstahlungsnummer, Startzeit, Endzeit) values  (2, 2, 1, 4, 8, '2023-05-01 20:00', '2023-05-01 21:00');
+insert into STREAMING.Ausstrahlung (serie_pk, episode_pk, Staffel, sender_pk, Ausstahlungsnummer, Startzeit, Endzeit) values  (2, 3, 1, 4, 9, '2023-05-01 21:00', '2023-05-01 22:00');
+```
+
 ### Dependencies
 
 ```mermaid

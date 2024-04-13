@@ -64,6 +64,8 @@ markdown_extensions:
       permalink: true
   - mdx_truly_sane_lists
   - sane_lists
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 extra:
   tags:
