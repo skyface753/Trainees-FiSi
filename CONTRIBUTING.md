@@ -56,12 +56,13 @@ Quizzes are used to test the knowledge of the trainee. They should be used (but 
 Define the goals of the current topic at the **end** of the topic.
 
 ```markdown
-!!! goal
+## Self Check
 
-    Goals for this section:
+!!! goal "Self Check"
 
-    - Learn how to use admonitions
-    - Learn how to use admonitions in admonitions
+    Before you go on, make sure you have completed the following tasks:
+
+    - [X] Task 1
 ```
 
 ## Links

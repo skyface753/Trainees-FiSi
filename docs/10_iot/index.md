@@ -6,9 +6,10 @@
 
 ## Self Check
 
-!!! success
+!!! goal "Self Check"
 
     Before you go on, make sure you have completed the following tasks:
+
     - [x] Traffic light with a Arduino.
     - [x] Automated plant watering system with a Arduino.
     - [x] RetroPie with a Raspberry Pi.

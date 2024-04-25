@@ -1,5 +1,13 @@
 # Projects
 
+## Kresse auf dem Mars (with Camera Time Lapse)
+
+<https://www.raspberrypi.com/news/raspberry-pi-zero-waters-your-plants-and-records-growth-timelapse/>
+
+OR
+
+See [Arduino Projects](../arduino/projects.md/#kresse-auf-dem-mars) for a similar project without the camera and no time-lapse.
+
 ## [RetroPie](https://retropie.org.uk/)
 
 We would recommend to use the pre-made image, but if you want to install it manually, you can follow the instructions on the official website.

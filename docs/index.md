@@ -42,17 +42,17 @@ gitGraph TB:
 
 ## Main topics
 
-- First, we will do a few projects with [IoT Boards](1_iot/index.md), like the Raspberry Pi, to get familiar with some basic hardware.
-- After that, we will setup some [virtual machines](2_virtualization/index.md) to a basic infrastructure.
-- Then we will setup a [network](3_networking/index.md) with a router and real switches.
+- First, we will do a few projects with [IoT Boards](10_iot/index.md), like the Raspberry Pi, to get familiar with some basic hardware.
+- After that, we will setup some [virtual machines](20_virtualization/index.md) to a basic infrastructure.
+- Then we will setup a [network](30_networking/index.md) with a router and real switches.
   - We will also setup some servers and services to get a infrastructure like a company would have (e.g. a webserver, a mailserver, a fileserver, ...)
-- Lastly, you can choose some other topics like [coding](7_coding/index.md) or [AI](8_ai/index.md). These are not essential for the trainee project, but you can learn a lot from them.
+- Lastly, you can choose some other topics like [coding](70_coding/index.md) or [AI](80_ai/index.md). These are not essential for the trainee project, but you can learn a lot from them.
 
 ## Prepare yourself
 
 - Get familiar with the [Linux command line](https://www2.icp.uni-stuttgart.de/~icp/mediawiki/images/b/bd/Sim_Meth_I_T0_cheat_sheet_10_11.pdf)
 
-Some other useful tools:
+Some other useful tools (but not essential) are:
 
 - [jq](https://jqlang.github.io/jq/)
 - Built-in:
@@ -60,9 +60,6 @@ Some other useful tools:
   - [grep](https://www.gnu.org/software/grep/)
   - [sed](https://www.gnu.org/software/sed/)
   - [awk](https://www.gnu.org/software/gawk/manual/gawk.html)
-
-- jdew
-  - cehcbj
 
 <?quiz?>
 

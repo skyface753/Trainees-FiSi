@@ -1,3 +1,7 @@
+---
+tags: [optional]
+---
+
 # DWT
 
 Data Warehouse Technology is the technology associated with data warehousing. It is a set of concepts and tools that allow the extraction of data from transactional systems, transform it into a format that can be analyzed, and loaded into a data warehouse for analysis.

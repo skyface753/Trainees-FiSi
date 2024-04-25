@@ -1,7 +1,3 @@
----
-tags: [optional]
----
-
 # Applications
 
 This section is for applications related topics.
@@ -10,4 +6,5 @@ This section is for applications related topics.
 
 The structure of this section is as follows:
 
-- Database
+- Database (Relational, NoSQL)
+- Data Warehouse (Optional)

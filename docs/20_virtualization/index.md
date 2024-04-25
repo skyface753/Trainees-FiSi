@@ -28,3 +28,21 @@ Kubernetes is the big brother of docker. It is really complex. For this reason, 
 ## Prior Knowledge
 
 Please read the [prior knowledge](prior_knowledge/index.md) before you start with the virtualization.
+
+## Self Check
+
+!!! goal "Self Check"
+
+    Before you go on, make sure you have completed the following tasks:
+
+    - [X] VirtualBox
+        - [X] Install VirtualBox
+        - [X] Create a VM
+        - [X] Install an OS on the VM (e.g. Ubuntu)
+    - [X] Proxmox
+        - [X] Install Proxmox on a ThinClient
+        - [X] Create a VM
+        - [X] Install an OS on the VM (e.g. Ubuntu)
+    - [X] Docker
+        - [X] Install Docker
+        - [X] Run a container (e.g. an NgniX web server)

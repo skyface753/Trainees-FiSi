@@ -1,15 +1,15 @@
 nav:
-
-- Home:
-  - index.md
-  - tags.md
-- IoT: 1_iot
-- Virtualization: 2_virtualization
-- Networking: 3_networking
-- Backup: backup
-- Security: 4_security
-- Tools: 5_tools
-- Applications: 6_applications
-- Coding: 7_coding
-- AI: 8_ai
-- ...
+  - Home:
+      - index.md
+      - tags.md
+  - IoT: 10_iot
+  - Virtualization: 20_virtualization
+  - Networking: 30_networking
+  - Backup: 35_backup
+  - IT-Security: 40_security
+  - Tools: 50_tools
+  - Applications: 60_applications
+  - Coding: 70_coding
+  - AI: 80_ai
+  - Project: 90_project
+  - ...
