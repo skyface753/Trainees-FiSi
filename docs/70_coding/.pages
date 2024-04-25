@@ -1,8 +1,9 @@
 nav:
-  - IDEs: 0_ide
-  - Web: 1_web
-  - Desktop: 2_desktop
-  - Apps: 3_apps
-  - Games: 4_games
-  - Tools: tools
+  - IDEs: 10_ide
+  - Web: 20_web
+  - Desktop: 30_desktop
+  - Apps: 40_apps
+  - Games: 50_games
+  - Challenges: 60_challenges
+  - Tools: 70_tools
   - ...

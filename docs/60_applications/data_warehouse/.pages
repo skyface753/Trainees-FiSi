@@ -1,0 +1,7 @@
+nav:
+
+- Home: index.md
+- Preperation: preperation.md
+- Titanic: titanic.md
+- Apple Health: apple_health.md
+- ...

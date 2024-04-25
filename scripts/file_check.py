@@ -55,6 +55,9 @@ if __name__ == "__main__":
     file_checker = FileChecker(args.root_dir, excludes=args.excludes, verbose=args.verbose)
     missing_files = file_checker.check_missing_indexes()
     empty_files = file_checker.check_for_empty_files()
+    if args.auto_fix and args.strict:
+        print("Auto-fix and strict mode are incompatible")
+        exit(1)
     if args.auto_fix:
         file_checker.fix()
         print("Missing files fixed")
