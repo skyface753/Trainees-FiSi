@@ -296,7 +296,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/60_applications/data_warehouse/data_warehouse/</loc>
+         <loc>https://skyface753.github.io/Trainees-FiSi/60_applications/data_warehouse/own_dwh/</loc>
+         <lastmod>2024-04-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://skyface753.github.io/Trainees-FiSi/60_applications/data_warehouse/preperation/</loc>
          <lastmod>2024-04-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -361,127 +366,147 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/0_ide/</loc>
+         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/10_ide/</loc>
          <lastmod>2024-04-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/0_ide/jetbrains/</loc>
+         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/10_ide/jetbrains/</loc>
          <lastmod>2024-04-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/0_ide/vscode/</loc>
+         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/10_ide/vscode/</loc>
          <lastmod>2024-04-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/1_web/</loc>
+         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/20_web/</loc>
          <lastmod>2024-04-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/1_web/jekyll/</loc>
+         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/20_web/jekyll/</loc>
          <lastmod>2024-04-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/1_web/basics/</loc>
+         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/20_web/basics/</loc>
          <lastmod>2024-04-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/1_web/basics/1_html/</loc>
+         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/20_web/basics/1_html/</loc>
          <lastmod>2024-04-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/1_web/basics/2_css/</loc>
+         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/20_web/basics/2_css/</loc>
          <lastmod>2024-04-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/1_web/basics/3_php/</loc>
+         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/20_web/basics/3_php/</loc>
          <lastmod>2024-04-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/1_web/basics/4_js/</loc>
+         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/20_web/basics/4_js/</loc>
          <lastmod>2024-04-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/1_web/frameworks/</loc>
+         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/20_web/frameworks/</loc>
          <lastmod>2024-04-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/1_web/frameworks/react/</loc>
+         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/20_web/frameworks/react/</loc>
          <lastmod>2024-04-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/2_desktop/</loc>
+         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/30_desktop/</loc>
          <lastmod>2024-04-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/2_desktop/cpp/</loc>
+         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/30_desktop/cpp/</loc>
          <lastmod>2024-04-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/2_desktop/python/</loc>
+         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/30_desktop/java/</loc>
          <lastmod>2024-04-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/3_apps/</loc>
+         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/30_desktop/python/</loc>
          <lastmod>2024-04-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/3_apps/cross_plattform/</loc>
+         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/40_apps/</loc>
          <lastmod>2024-04-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/3_apps/cross_plattform/flutter/</loc>
+         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/40_apps/android/</loc>
          <lastmod>2024-04-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/3_apps/cross_plattform/react_native/</loc>
+         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/40_apps/ios/</loc>
          <lastmod>2024-04-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/4_games/</loc>
+         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/40_apps/cross_plattform/</loc>
          <lastmod>2024-04-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/4_games/unity/</loc>
+         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/40_apps/cross_plattform/flutter/</loc>
          <lastmod>2024-04-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/4_games/unreal_engine/</loc>
+         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/40_apps/cross_plattform/react_native/</loc>
          <lastmod>2024-04-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/tools/</loc>
+         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/50_games/</loc>
          <lastmod>2024-04-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/tools/CICD/</loc>
+         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/50_games/unity/</loc>
          <lastmod>2024-04-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/tools/sonarqube/</loc>
+         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/50_games/unreal_engine/</loc>
+         <lastmod>2024-04-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/60_challenges/</loc>
+         <lastmod>2024-04-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/70_tools/</loc>
+         <lastmod>2024-04-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/70_tools/CICD/</loc>
+         <lastmod>2024-04-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/70_tools/sonarqube/</loc>
          <lastmod>2024-04-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
