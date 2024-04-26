@@ -2,547 +2,587 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/10_iot/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/10_iot/esp32/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/10_iot/3dprinting/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/10_iot/arduino/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/10_iot/arduino/projects/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/10_iot/raspi/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/10_iot/raspi/projects/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/20_virtualization/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/20_virtualization/1_virtualbox/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/20_virtualization/2_proxmox/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/20_virtualization/3_docker/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/20_virtualization/4_kubernetes/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/20_virtualization/5_openstack/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/20_virtualization/prior_knowledge/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/20_virtualization/prior_knowledge/boot_stick/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/20_virtualization/prior_knowledge/ssh/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/30_networking/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/30_networking/firewall/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/30_networking/starting_point/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/30_networking/switch/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/30_networking/tools/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/30_networking/vlan/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/30_networking/wireshark/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/30_networking/advanced/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/30_networking/advanced/subnetting/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/30_networking/advanced/vlan/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/30_networking/mininet/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/30_networking/mininet/routing/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/30_networking/services/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/30_networking/services/1_events_sequence/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/30_networking/services/ca/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/30_networking/services/dhcp/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/30_networking/services/dns/</loc>
-         <lastmod>2024-04-25</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/30_networking/services/ldap/</loc>
-         <lastmod>2024-04-25</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/30_networking/services/mail/</loc>
-         <lastmod>2024-04-25</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://skyface753.github.io/Trainees-FiSi/30_networking/services/smb/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/30_networking/vpn/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/30_networking/vpn/opnvpn/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/30_networking/vpn/wireguard/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/30_networking/wifi/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/30_networking/wifi/aps/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/30_networking/wifi/controller/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/35_backup/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/35_backup/altaro/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/35_backup/bareos/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/35_backup/duplicati/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/35_backup/pbs/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/35_backup/restic/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/35_backup/veeam/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/40_security/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/50_tools/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/50_tools/ansible/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/50_tools/monitoring/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/50_tools/monitoring/prometheus/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/50_tools/monitoring/uptime/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/60_applications/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/60_applications/data_warehouse/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/60_applications/data_warehouse/apple_health/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/60_applications/data_warehouse/own_dwh/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/60_applications/data_warehouse/preperation/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/60_applications/data_warehouse/titanic/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/60_applications/databases/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/60_applications/databases/orm/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/60_applications/databases/nosql/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/60_applications/databases/nosql/cassandra/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/60_applications/databases/nosql/mongodb/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/60_applications/databases/nosql/playground/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/60_applications/databases/sql/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/60_applications/databases/sql/mariadb/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/60_applications/databases/sql/playground/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/60_applications/databases/sql/postgres/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://skyface753.github.io/Trainees-FiSi/60_applications/server/</loc>
+         <lastmod>2024-04-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://skyface753.github.io/Trainees-FiSi/60_applications/server/ldap/</loc>
+         <lastmod>2024-04-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://skyface753.github.io/Trainees-FiSi/60_applications/server/mail/</loc>
+         <lastmod>2024-04-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://skyface753.github.io/Trainees-FiSi/60_applications/server/smb/</loc>
+         <lastmod>2024-04-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://skyface753.github.io/Trainees-FiSi/60_applications/server/web/</loc>
+         <lastmod>2024-04-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://skyface753.github.io/Trainees-FiSi/60_applications/server/windows/</loc>
+         <lastmod>2024-04-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://skyface753.github.io/Trainees-FiSi/60_applications/server/windows/ad/</loc>
+         <lastmod>2024-04-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://skyface753.github.io/Trainees-FiSi/60_applications/server/windows/exchange/</loc>
+         <lastmod>2024-04-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://skyface753.github.io/Trainees-FiSi/60_applications/server/windows/other/</loc>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/10_ide/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/10_ide/jetbrains/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/10_ide/vscode/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/20_web/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/20_web/jekyll/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/20_web/basics/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/20_web/basics/1_html/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/20_web/basics/2_css/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/20_web/basics/3_php/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/20_web/basics/4_js/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/20_web/frameworks/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/20_web/frameworks/react/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/30_desktop/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/30_desktop/cpp/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/30_desktop/java/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/30_desktop/python/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/40_apps/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/40_apps/android/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/40_apps/ios/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/40_apps/cross_plattform/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/40_apps/cross_plattform/flutter/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/40_apps/cross_plattform/react_native/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/50_games/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/50_games/unity/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/50_games/unreal_engine/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/60_challenges/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/70_tools/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/70_tools/CICD/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/70_coding/70_tools/sonarqube/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/80_ai/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/80_ai/genetic_algorithms/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/80_ai/genetic_algorithms/protein_folding/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/80_ai/machine_learning/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/80_ai/machine_learning/pothole_detection/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/90_project/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://skyface753.github.io/Trainees-FiSi/90_project/linux/</loc>
+         <lastmod>2024-04-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://skyface753.github.io/Trainees-FiSi/90_project/windows/</loc>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://skyface753.github.io/Trainees-FiSi/tags/</loc>
-         <lastmod>2024-04-25</lastmod>
+         <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
