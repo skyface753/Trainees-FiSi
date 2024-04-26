@@ -1,4 +1,6 @@
 nav:
   - Home: index.md
   - Databases: databases
+  - Server: server
   - Data Warehouse: data_warehouse
+  - ...
