@@ -38,4 +38,10 @@ A smart mirror is a two-way mirror with an electronic display behind the glass. 
 
 ## List of projects
 
-[Awesome Raspberry Pi](https://github.com/thibmaek/awesome-raspberry-pi)
+[Awesome Raspberry Pi](https://github.com/thibmaek/awesome-raspberry-pi?tab=readme-ov-file#projects)
+
+##
+
+- Rapsberry Pi Physical Computing
+- IO Broker
+- Wordpress
