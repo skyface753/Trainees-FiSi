@@ -13,6 +13,27 @@
 
     This project should just be a framework curriculum for the Traineeship as an IT specialist for system integration
 
+## Start MKDocs
+
+### Virtual Environment
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
+
+### Install Requirements
+
+```bash
+pip install -r requirements.docs.txt
+```
+
+### Run
+
+```bash
+ENABLED_GIT_PLUGINS=false mkdocs serve
+```
+
 ## File Check
 
 Please run the `file_check.py` script after making changes to the files in this repository. This script will check for missing `index.md` files in the `docs` directory. This will provide a better user experience for the website.
